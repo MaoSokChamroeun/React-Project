@@ -1,0 +1,20 @@
+.asus-item{
+    margin-top: 60px;
+    width: 380px;
+    height: 650px;
+    background-color: rgb(223, 223, 223);
+    
+}
+.btn-learn-more{
+    width: 370px;
+    height: 40px;
+    border: 2px solid red;
+   
+    font-size: 17px;
+    margin-top: 60px;
+}
+.btn-learn-more a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    letter-spacing: 1.5;
+}

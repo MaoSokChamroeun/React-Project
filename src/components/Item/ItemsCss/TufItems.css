@@ -1,0 +1,21 @@
+.tuf-gaming{
+    margin-top: 60px;
+    width: 380px;
+    height: 560px;
+    background-color: rgb(223, 223, 223);
+}
+.tuf{
+    width: 370px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid red;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: 90px;
+}
+.info-tuf{
+   display: block;
+    width: 380px;
+    height: 180px;
+    
+}

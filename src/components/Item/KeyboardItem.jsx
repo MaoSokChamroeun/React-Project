@@ -1,0 +1,24 @@
+import React from 'react'
+import './ItemsCss/Keyboard.css'
+import { Link } from 'react-router-dom'
+const KeyboardItem = (props) => {
+  return (
+    <div className='keyboard d-flex flex-column align-items-center  mt-5'>
+       <div className='keyboard-container '>
+        <Link to='/keyboard'><img className='image-hover' onClick={window.scrollTo(0,0)} src={props.keyboard_back_image} alt='' width={100}/></Link>
+        <Link to='/keyboard'><img className='image-default' onClick={window.scrollTo(0,0)} src={props.keyboard_front_image} alt=''  width={100}/></Link>
+       </div>
+       <div className='text-keyboard'>
+       <h1 className='fs-4 text-center fw-bold'>{props.keyboard_name}</h1>
+       <p>{props.keyboard_description}</p>
+
+       
+       </div>
+       <button className='btn-learn-more keyboard-btn'>
+          <a href='/keyboard'>LEARN MORE</a>
+      </button>
+    </div>
+  )
+}
+
+export default KeyboardItem

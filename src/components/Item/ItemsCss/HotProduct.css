@@ -1,0 +1,11 @@
+.hotproduct-item{
+    width: 360px;
+    height: 500px;
+    background-color: rgb(216, 214, 214);
+    box-shadow: 0 2px 16px 0.5px rgba(145, 143, 143);
+    
+}
+.hotproduct-btn{
+    border: none;
+    font-size: 12px;
+}

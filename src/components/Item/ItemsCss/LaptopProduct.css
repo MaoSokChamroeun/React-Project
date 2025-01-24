@@ -1,0 +1,7 @@
+.box-laptop{
+    width: 510px;
+    height: 529px;
+    background-color: rgb(235, 232, 232);
+    border: 1px solid gray;
+    padding: 5px;
+}

@@ -1,0 +1,205 @@
+import tuf_1 from './tuf_1.webp'
+import tuf_2 from './tuf_2.webp'
+import tuf_3 from './tuf_3.webp'
+import tuf_4 from './tuf_4.webp'
+import tuf_5 from './tuf_5.webp'
+import tuf_6 from './tuf_6.webp'
+import tuf_7 from './tuf_7.webp'
+import tuf_8 from './tuf_8.webp'
+import tuf_9 from './tuf_9.webp'
+import tuf_10 from './tuf_10.webp'
+import tuf_11 from './tuf_11.webp'
+import tuf_12 from './tuf_12.webp'
+import tuf_13 from './tuf_13.webp'
+import tuf_14 from './tuf_14.webp'
+import tuf_15 from './tuf_15.webp'
+import tuf_16 from './tuf_16.webp'
+import tuf_17 from './tuf_17.webp'
+
+import tuf_19 from './tuf_19.webp'
+import tuf_20 from './tuf_20.webp'
+
+let tuf_product = [
+    {
+        tuf_id: 1,
+        tuf_image: tuf_1,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 2,
+        tuf_image: tuf_2,
+        tuf_name : 'ASUS TUF Gaming A18 (2025)',
+        tuf_window: 'Windows 11 Home',
+        tuf_graphic_card: 'NVIDIA® GeForce RTX™ 5070 Laptop GPU',
+        tuf_cpu: 'AMD Ryzen™ 7 260 Processor',
+        tuf_storage: 'Up to 16GB DDR5-5600 SO-DIMM x 2Up to 2TB PCIe® 4.0 NVMe™ M.2 SSD',
+    },
+    {
+        tuf_id: 3,
+        tuf_image: tuf_3,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 4,
+        tuf_image: tuf_4,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 5,
+        tuf_image: tuf_5,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 6,
+        tuf_image: tuf_6,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 7,
+        tuf_image: tuf_7,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 8,
+        tuf_image: tuf_8,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 9,
+        tuf_image: tuf_9,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 10,
+        tuf_image: tuf_10,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 11,
+        tuf_image: tuf_11,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 12,
+        tuf_image: tuf_12,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 13,
+        tuf_image: tuf_13,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 14,
+        tuf_image: tuf_14,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 15,
+        tuf_image: tuf_15,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 16,
+        tuf_image: tuf_16,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 17,
+        tuf_image: tuf_17,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    // {
+    //     tuf_id: 18,
+    //     tuf_image: tuf_18,
+    //     tuf_name : 'ASUS TUF Gaming F16 (2025)',
+    //     tuf_window: 'Windows 11 Pro',
+    //     tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+    //     tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+    //     tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    // },
+    {
+        tuf_id: 19,
+        tuf_image: tuf_19,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+    {
+        tuf_id: 20,
+        tuf_image: tuf_20,
+        tuf_name : 'ASUS TUF Gaming F16 (2025)',
+        tuf_window: 'Windows 11 Pro',
+        tuf_graphic_card: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_cpu: 'AMD Ryzen 7 5800X 8-Core',
+        tuf_storage: '1TB SSD M.2 NVMe PCIe 4.0',
+    },
+]
+
+export default tuf_product;
