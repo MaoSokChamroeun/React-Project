@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemsCss/Keyboard.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const KeyboardItem = (props) => {
   return (
     <div className='keyboard d-flex flex-column align-items-center  mt-5'>
@@ -15,7 +15,7 @@ const KeyboardItem = (props) => {
        
        </div>
        <button className='btn-learn-more keyboard-btn'>
-          <a href='/keyboard'>LEARN MORE</a>
+          <NavLink to='/keyboard' className='fw-bold'>ADD TO CARD</NavLink>
       </button>
     </div>
   )

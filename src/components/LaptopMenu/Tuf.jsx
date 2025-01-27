@@ -6,6 +6,7 @@ import tuf_banner_5 from '../Assets/tuf_banner_5.jpg'
 import Footer from '../Footer/Footer'
 import tuf_product from '../Assets/tuf_product'
 import TufItems from '../Item/TufItems'
+import DetailLogo from '../DetialLogo/DetailLogo'
 const Tuf = () => {
   return (
     <div className='container=fluid'>
@@ -528,7 +529,7 @@ const Tuf = () => {
         </div>
       </div>
     </div>
-
+    <DetailLogo />
     <Footer />
     </div>
   )

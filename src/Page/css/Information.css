@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .information-hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/components/Assets/information_banner_pag.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 160px 15px;
+    text-align: center;
+  }
+  .information-hero-section h1 {
+    font-size: 3rem;
+  }
+  .features-section {
+    padding: 50px 15px;
+  }
+  .features-section h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .features-section img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .cta-section {
+    background-color: #0078d4;
+    color: white;
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .btn-explor-products{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+    padding: 15px 30px;
+   
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn-explor-products a{
+    color: #000;
+    font-weight: 600;
+  }

@@ -2,6 +2,7 @@ import React from 'react'
 import monitor_product from '../Assets/monitor_product'
 import Footer from '../Footer/Footer'
 import MonitorItmes from '../Item/MonitorItems'
+import DetailLogo from '../DetialLogo/DetailLogo'
 
 const MonitorProduct = () => {
   return (
@@ -488,7 +489,7 @@ const MonitorProduct = () => {
         </div>
       </div>
     </div>
-
+     <DetailLogo />
     <Footer />
     </div>
   )

@@ -47,13 +47,13 @@ const Navigation = () => {
 </nav>
 <div className='d-flex gap-2'> 
   <button style={{border: 'none',backgroundColor: 'none'}} >
-    {/* <img src={search_icon} alt='' width={20} /> */}
+    
     <FaSearch style={{fontSize: '20px'}}/>
   </button>
-  <button style={{border: 'none',backgroundColor: 'none'}}>
-    {/* <img src={card_seller} alt='' width={20}/> */}
+  <Link to = '/cardshop'><button style={{border: 'none',backgroundColor: 'none'}}>
     <FaShoppingCart style={{fontSize: '20px'} }/>
   </button>
+  </Link>
 </div>
       </div>
     </div>

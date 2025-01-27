@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemsCss/Monitor.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const MonitorItmes = (props) => {
   return (
     <div className='monitor'>
@@ -9,7 +9,7 @@ const MonitorItmes = (props) => {
             <h3 className='fs-6'>{props.monitor_name}</h3>
       </div>
       <button className='btn-learn-more tuf'>
-          <a href='/monitorproduct'>LEARN MORE</a>
+          <NavLink to='/monitorproduct' className='fw-bold'>ADD TO CARD</NavLink>
       </button>
     </div>
   )

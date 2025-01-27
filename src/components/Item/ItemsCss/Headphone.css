@@ -1,0 +1,10 @@
+.headphone-item{
+    background-color: rgb(221, 221, 221);
+    height: 590px;
+    padding: 5px;
+}
+.headphone-description{
+    width: 330px;
+    margin-top: 20px;
+    padding: 10px;
+}

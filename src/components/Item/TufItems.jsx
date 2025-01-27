@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemsCss/TufItems.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const TufItems = (props) => {
   return (
     <div className='tuf-gaming'>
@@ -16,7 +16,7 @@ const TufItems = (props) => {
                 <li>{props.tuf_storage}</li>
             </ul>
             <button className='btn-learn-more tuf'>
-          <a href='/tuf'>LEARN MORE</a>
+          <NavLink to='/tuf' className='fw-bold'>ADD TO CARD</NavLink>
       </button>
     </div>
   )

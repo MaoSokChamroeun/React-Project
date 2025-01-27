@@ -6,15 +6,17 @@ import LaptopProduct from '../components/LaptopProduct/LaptopProduct'
 import Menu from '../components/MenuChoose/Menu'
 import HotProduct from '../components/HotProduct/HotProduct'
 import Footer from '../components/Footer/Footer'
+import DetailLogo from '../components/DetialLogo/DetailLogo'
 const Shop = () => {
   return (
-    <div>
+    <div >
       <Hero /> 
       <OurProduct />
       <Related />
       <LaptopProduct />
       <Menu />
       <HotProduct />
+      <DetailLogo />
       <Footer />
     </div>
   )

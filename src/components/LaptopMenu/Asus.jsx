@@ -7,6 +7,7 @@ import asus_banner_3 from '../Assets/asus_banner_3.webp'
 import asus_banner_4 from '../Assets/asus_banner_4.webp'
 import Footer from '../Footer/Footer'
 import './Css/Asus.css'
+import DetailLogo from '../DetialLogo/DetailLogo'
 const Asus = () => {
   return (
     <div>
@@ -531,7 +532,7 @@ const Asus = () => {
         </div>
       </div>
     </div>
-
+    <DetailLogo />
     <Footer />
     </div>
   )

@@ -13,9 +13,9 @@ const Footer = () => {
                 <div class="col-md-3">
                     <h5>Cheak Product</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#home" class="text-white  smooth-scroll">Home</a></li>
-                        <li><a href="#about" class="text-white  smooth-scroll">About</a></li>
-                        <li><a href="#contact" class="text-white  smooth-scroll">Contact</a></li>
+                        <li><a href="/" class="text-white  smooth-scroll">Home</a></li>
+                        <li><a href="/about" class="text-white  smooth-scroll">About</a></li>
+                        <li><a href="/contact" class="text-white  smooth-scroll">Contact</a></li>
                         <li><a href="#technology" class="text-white  smooth-scroll">Laptop</a></li>
                         <li><a href="#product" class="text-white  smooth-scroll">Accessories</a></li>
                     </ul>

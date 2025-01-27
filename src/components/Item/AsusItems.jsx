@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemsCss/AsusItems.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const AsusItems = (props) => {
   return (
@@ -17,7 +17,7 @@ const AsusItems = (props) => {
       </ul>
 
       <button className='btn-learn-more'>
-          <a href='/asus'>LEARN MORE</a>
+          <NavLink to='/asus' className='fw-bold'>ADD TO CARD</NavLink>
       </button>
       </div>
       

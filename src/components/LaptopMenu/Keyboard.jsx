@@ -7,6 +7,7 @@ import banner_keyboard_4 from '../Assets/banner_keyboard_4.webp'
 import Footer from '../Footer/Footer'
 import keyboard_product from '../Assets/keyboard_product'
 import KeyboardItem from '../Item/KeyboardItem'
+import DetailLogo from '../DetialLogo/DetailLogo'
 const Keyboard = () => {
   return (
     <div className='container=fluid'>
@@ -45,7 +46,7 @@ const Keyboard = () => {
     
     <div className='product-container d-flex'> 
       <div className='choose-menu'>
-      <h1 className='text-center fw-bold mt-5'>ASUS PRODUCT</h1>
+      <h1 className='text-center fw-bold mt-5'>KEYBOARD PRODUCT</h1>
       <div class="container my-4">
     <div class="accordion" id="filterAccordion">
       <div class="accordion-item">
@@ -527,7 +528,7 @@ const Keyboard = () => {
         </div>
       </div>
     </div>
-
+    <DetailLogo />
     <Footer />
     </div>
   )

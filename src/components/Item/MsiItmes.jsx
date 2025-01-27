@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemsCss/MsiItems.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const MsiItmes = (props) => {
   return (
     <div>
@@ -9,7 +9,7 @@ const MsiItmes = (props) => {
       <h1 className='fw-bold fs-4'>{props.msi_name}</h1>
          <p className='msi-description'>{props.msi_description}</p>
       <button className='btn-learn-more'>
-          <a href='/msi'>LEARN MORE</a>
+          <NavLink to='/msi' className='fw-bold'>ADD TO CARD</NavLink>
       </button>
       </div>
     </div>

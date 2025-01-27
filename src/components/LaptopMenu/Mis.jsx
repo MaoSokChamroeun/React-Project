@@ -16,6 +16,7 @@ import MsiItmes from '../Item/MsiItmes'
 
 import msi_product from '../Assets/msi_product'
 import Footer from '../Footer/Footer'
+import DetailLogo from '../DetialLogo/DetailLogo'
 const Mis = () => {
   return (
     <div>
@@ -572,7 +573,7 @@ const Mis = () => {
         </div>
       </div>
     </div>
-
+    <DetailLogo />
     <Footer />
     </div>
   )
