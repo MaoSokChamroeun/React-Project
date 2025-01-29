@@ -5,7 +5,7 @@ const TufItems = (props) => {
   return (
     <div className='tuf-gaming'>
       <div className='tuf-item d-flex flex-column align-items-center'>
-           <Link to='/tuf'><img onClick={window.scrollTo(0,0)} src={props.tuf_image} alt='' /></Link> 
+           <Link to={`/productdisplaytuf/${props.tuf_id}`}><img onClick={window.scrollTo(0,0)} src={props.tuf_image} alt='' /></Link> 
             <h1 className='fw-bold fs-4 text-center'>{props.tuf_name}</h1>
       
       </div>

@@ -1,6 +1,7 @@
-import React from 'react'
+
+
 import AsusItems from '../Item/AsusItems'
-import asus_product from '../Assets/asus_product'
+import asus_product from '../Assets/asus_product';
 import asus_banner_1 from '../Assets/asus_banner_1.webp'
 import asus_banner_2 from '../Assets/asus_banner_2.webp'
 import asus_banner_3 from '../Assets/asus_banner_3.webp'
@@ -9,6 +10,7 @@ import Footer from '../Footer/Footer'
 import './Css/Asus.css'
 import DetailLogo from '../DetialLogo/DetailLogo'
 const Asus = () => {
+
   return (
     <div>
             <section className="container-fluid bg-dark ">
@@ -519,7 +521,7 @@ const Asus = () => {
           {asus_product.map((item,i) =>{
             return <AsusItems 
             key={i}
-            id = {item.id}
+            asus_id = {item.asus_id}
             asus_name= {item.asus_name}
             asus_image = {item.asus_image}
             window_info = {item.window_info}

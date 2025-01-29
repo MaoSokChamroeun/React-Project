@@ -481,7 +481,7 @@ const MonitorProduct = () => {
           {monitor_product.map((item,i) =>{
             return <MonitorItmes 
             key={i}
-            id = {item.id}
+            monitor_id = {item.monitor_id}
             monitor_image = {item.monitor_image}
             monitor_name = {item.monitor_name}
              />

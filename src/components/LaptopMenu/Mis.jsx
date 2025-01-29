@@ -17,6 +17,7 @@ import MsiItmes from '../Item/MsiItmes'
 import msi_product from '../Assets/msi_product'
 import Footer from '../Footer/Footer'
 import DetailLogo from '../DetialLogo/DetailLogo'
+import { Link, Outlet } from 'react-router-dom'
 const Mis = () => {
   return (
     <div>
@@ -561,15 +562,17 @@ const Mis = () => {
       </div>
       <div className="item-container">
         <div className="card-container d-flex flex-wrap gap-4 mx-auto align-items-center justify-content-center">
-          {msi_product.map((item,i) =>{
+       
+            {msi_product.map((item,i) =>{
             return <MsiItmes 
             key={i}
-            id = {item.id}
+            msi_id = {item.msi_id}
             msi_name= {item.msi_name}
             msi_image = {item.msi_image}
             msi_description = {item.msi_description}
              />
           })}
+           <Outlet />
         </div>
       </div>
     </div>

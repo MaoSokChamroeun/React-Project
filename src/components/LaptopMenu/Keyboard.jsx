@@ -518,7 +518,7 @@ const Keyboard = () => {
           {keyboard_product.map((item,i) =>{
             return <KeyboardItem 
             key={i}
-            keyboard_id = {item.id}
+            keyboard_id = {item.keyboard_id}
             keyboard_front_image = {item.keyboard_front_image}
             keyboard_back_image = {item.keyboard_back_image}
             keyboard_name = {item.keyboard_name}

@@ -517,7 +517,7 @@ const Tuf = () => {
           {tuf_product.map((item,i) =>{
             return <TufItems 
             key={i}
-            id = {item.id}
+            tuf_id = {item.tuf_id}
             tuf_image = {item.tuf_image}
             tuf_name = {item.tuf_name}
             tuf_window = {item.tuf_window}

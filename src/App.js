@@ -1,7 +1,7 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import About from './Page/About';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 // import {Shop , Contact , Laptop , Monitor , Information , Asseserise , About} from './Page'
 import Shop from './Page/Shop';
 import Contact from './Page/Contact';
@@ -16,13 +16,23 @@ import Keyboard from './components/LaptopMenu/Keyboard';
 import MonitorProduct from './components/LaptopMenu/MonitorProduct';
 import HeadPhone from './components/LaptopMenu/HeadPhone';
 import CardShop from './Page/CardShop';
+import Product from './Page/Product';
 import Service from './components/Servies/Service';
+import ProductDisplay from './components/ProductDisplay/ProductDisplayMsi';
+import AsusProduct from './components/AsusDisplay/AsusProduct';
+import ProductDisplayMsi from './components/ProductDisplay/ProductDisplayMsi';
+import ProductDisplayAsus from './components/ProductDisplay/ProductDisplayAsus';
+import ProductDisplayTuf from './components/ProductDisplay/ProductDisplayTuf';
+import ProductDisplayMonitor from './components/ProductDisplay/ProductDisplayMonitor';
+import ProductDisplayKeyboard from './components/ProductDisplay/ProductDisplayKeyboard';
+import ProductDisplayHeadphone from './components/ProductDisplay/ProductDisplayHeadphone';
 // import Product from './Page/Product';
 function App() {
   return (
     <div className="App">
      <BrowserRouter>
      <Navigation />
+
       <Routes>
         <Route path='/' element = {<Shop />}/>
         <Route path='/about' element = {<About />}/>
@@ -35,15 +45,48 @@ function App() {
         <Route path='/cardshop' element = {<CardShop />} />
         <Route path='/service' element = {<Service />} />
 
-        <Route path='/asus' element = {<Asus/>} />
-        <Route path='/msi' element = {<Mis />} />
+        <Route path='/asus' element = {<Asus />}/>
+       
+        <Route path='/msi' element = {<Mis />}/>
+
+        {/* <Route path='/product' element = {<Product />} > 
+              
+        </Route> */}
+        
         <Route path='/tuf' element = {<Tuf />} />
         <Route path='/monitorproduct' element= {<MonitorProduct />} />
         <Route path='/keyboard' element= {<Keyboard />} />
         <Route path='/headphone' element= {<HeadPhone />} />
-       
-      </Routes>
-     </BrowserRouter>
+        <Route path='/product' element = {<Product />} />
+
+
+
+
+
+
+
+        
+        <Route path='/productdisplayasus' element= {<ProductDisplayAsus />} >
+            <Route path=':asusID' element = {<ProductDisplayAsus />} />
+        </Route>
+        <Route path='/productdisplaymsi' element= {<ProductDisplayMsi />} >
+            <Route path=':msiID' element = {<ProductDisplayMsi />} />
+        </Route>
+        <Route path='/productdisplaytuf' element= {<ProductDisplayTuf />} >
+            <Route path=':tufID' element = {<ProductDisplayTuf />} />
+        </Route>
+        <Route path='/productdisplaymonitor' element= {<ProductDisplayMonitor />} >
+            <Route path=':monitorID' element = {<ProductDisplayMonitor />} />
+        </Route>
+        <Route path='/productdisplaykeyboard' element= {<ProductDisplayKeyboard />} >
+            <Route path=':keyboardID' element = {<ProductDisplayKeyboard />} />
+        </Route>
+        <Route path='/productdisplayheadphone' element= {<ProductDisplayHeadphone />} >
+            <Route path=':headphoneID' element = {<ProductDisplayHeadphone />} />
+        </Route>
+        </Routes>
+      </BrowserRouter>
+     
     </div>
   );
 }

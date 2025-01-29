@@ -7,6 +7,7 @@ import Menu from '../components/MenuChoose/Menu'
 import HotProduct from '../components/HotProduct/HotProduct'
 import Footer from '../components/Footer/Footer'
 import DetailLogo from '../components/DetialLogo/DetailLogo'
+import { Link } from 'react-router-dom'
 const Shop = () => {
   return (
     <div >
