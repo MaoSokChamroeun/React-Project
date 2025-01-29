@@ -15,7 +15,7 @@ const KeyboardItem = (props) => {
        
        </div>
        <button className='btn-learn-more keyboard-btn'>
-          <NavLink to='/keyboard' className='fw-bold'>ADD TO CARD</NavLink>
+          <NavLink to='/keyboard' className='fw-500'>LEARN MORE</NavLink>
       </button>
     </div>
   )

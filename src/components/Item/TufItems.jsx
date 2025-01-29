@@ -16,7 +16,7 @@ const TufItems = (props) => {
                 <li>{props.tuf_storage}</li>
             </ul>
             <button className='btn-learn-more tuf'>
-          <NavLink to='/tuf' className='fw-bold'>ADD TO CARD</NavLink>
+          <NavLink to='/tuf' className='fw-500'>LEARN MORE</NavLink>
       </button>
     </div>
   )

@@ -10,7 +10,7 @@ const HeadphoneItem = (props) => {
       <h1 className='fs-5 mt-3  text-center fw-bold'>{props.headphone_name}</h1>
       <p className='headphone-description'>{props.headphone_description}</p>
       <button className='btn-learn-more headphone'>
-          <NavLink to='/headphone' className='fw-bold'>ADD TO CARD</NavLink>
+          <NavLink to='/headphone' className='fw-500'>LEARN MORE</NavLink>
       </button>
     </div>
   )

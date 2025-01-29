@@ -4,12 +4,12 @@ import { Link, NavLink } from 'react-router-dom'
 const MsiItmes = (props) => {
   return (
     <div>
-        <div className='infor-asus d-flex flex-column align-items-center'>
-          <Link to= {`/productdisplaymsi/${props.msi_id}`}><img onClick={window.scrollTo(0,0)} src={props.msi_image} alt='' width={300} /></Link>
-      <h1 className='fw-bold fs-4'>{props.msi_name}</h1>
+        <div className='infor-msi d-flex flex-column align-items-center'>
+          <Link to= {`/productdisplaymsi/${props.msi_id}`}><img onClick={window.scrollTo(0,0)} src={props.msi_image} alt='' width={280} /></Link>
+          <h1 className='fw-bold fs-4 text-center'>{props.msi_name}</h1>
          <p className='msi-description'>{props.msi_description}</p>
-      <button className='btn-learn-more'>
-          <NavLink to='/msi' className='fw-bold'>ADD TO CARD</NavLink>
+         <button className='btn-learn-more msi-btn'>
+          <NavLink to='/msi' className='fw-500'>LEARN MORE</NavLink>
       </button>
       </div>
     </div>
