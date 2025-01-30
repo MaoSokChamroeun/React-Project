@@ -6,7 +6,7 @@ import chanya from '../components/Assets/chanya.jpg'
 import reach from '../components/Assets/reach.JPG'
 const About = () => {
   return (
-    <div className='bg-dark-subtle'>
+    <div className='bg-dark-subtle' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
      <section class="hero-section">
   <div div class="container">
     <h1>About Us</h1>

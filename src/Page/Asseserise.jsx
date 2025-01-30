@@ -9,7 +9,7 @@ import laptop_stand from '../components/Assets/laptop_stand.jpg'
 import rog_charge from '../components/Assets/rog_charge.jpeg'
 const Asseserise = () => {
   return (
-    <div className='bg-dark-subtle'>
+    <div className='bg-dark-subtle' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
       <section class="asseserise-hero-section">
   <div class="container">
     <h1>Top Laptop Accessories</h1>

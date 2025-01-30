@@ -4,7 +4,7 @@ import './css/Information.css'
 import laptop_asus from '../components/Assets/laptop-1.jpg'
 const Information = () => {
   return (
-    <div className='bg-dark-subtle '>
+    <div className='bg-dark-subtle'  data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
       <section class="information-hero-section">
   <div class="container">
     <h1>Welcome to MCR COMPUTER-Seller Laptops</h1>

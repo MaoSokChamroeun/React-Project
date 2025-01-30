@@ -3,7 +3,7 @@ import './ItemsCss/Headphone.css'
 import { Link, NavLink } from 'react-router-dom';
 const HeadphoneItem = (props) => {
   return (
-    <div className='headphone-item mt-5  '>
+    <div className='headphone-item mt-5 ' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className='headphone d-flex flex-column align-items-center '>
        <Link to={`/productdisplayheadphone/${props.headphone_id}`}><img onClick={window.scrollTo(0,0)} src={props.headphone_image} alt='' width={300} /></Link>
       </div>

@@ -3,7 +3,7 @@ import "./Service.css";
 import { IoSearchOutline } from "react-icons/io5";
 const Service = () => {
   return (
-    <div className="servies">
+    <div className="servies"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
       <section id="services">
         <div class="service-banner">
           <div class="text-center text-banner">

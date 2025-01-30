@@ -1,11 +1,25 @@
 .hotproduct-item{
     width: 360px;
-    height: 500px;
+    height: 600px;
     background-color: rgb(216, 214, 214);
-    box-shadow: 0 2px 16px 0.5px rgba(145, 143, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
-.hotproduct-btn{
+.btn-hotproduct{
     border: none;
+    width: 200px;
+    
+    height: 30px;
+    text-align: center;
     font-size: 12px;
+    margin-top: 30px;
+}
+.hotproduct-infor{
+    height: 200px;
+    width: 300px;
+    
+  
 }

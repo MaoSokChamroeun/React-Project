@@ -5,7 +5,7 @@ import LaptopItem from '../Item/LaptopItem'
 import './laptopStyle.css'
 const LaptopProduct = () => {
   return (
-    <div className='mt-5'>
+    <div className='mt-5' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <h1 className='text-center fw-bold'>LAPTOP</h1>
       <div className='w-75  mx-auto'>
         <p className='text-center fs-xs text-black'>ROG was founded to create the world’s best gaming devices. Our premium devices elevate gaming experiences with best-in-class displays, top-tier graphics, and innovative cooling solutions.</p>

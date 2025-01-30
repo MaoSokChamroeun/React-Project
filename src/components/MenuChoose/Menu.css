@@ -13,6 +13,12 @@
 .btn-view{
     width: 300px;
     height: 40px;
+    border: none;
+  
+}
+.btn-view p{
+    text-align: center;
+    text-decoration: none;
 }
 .text-view{
     text-decoration: none;

@@ -1,7 +1,7 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import About from './Page/About';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import {Shop , Contact , Laptop , Monitor , Information , Asseserise , About} from './Page'
 import Shop from './Page/Shop';
 import Contact from './Page/Contact';
@@ -18,8 +18,6 @@ import HeadPhone from './components/LaptopMenu/HeadPhone';
 import CardShop from './Page/CardShop';
 import Product from './Page/Product';
 import Service from './components/Servies/Service';
-import ProductDisplay from './components/ProductDisplay/ProductDisplayMsi';
-import AsusProduct from './components/AsusDisplay/AsusProduct';
 import ProductDisplayMsi from './components/ProductDisplay/ProductDisplayMsi';
 import ProductDisplayAsus from './components/ProductDisplay/ProductDisplayAsus';
 import ProductDisplayTuf from './components/ProductDisplay/ProductDisplayTuf';
@@ -27,10 +25,17 @@ import ProductDisplayMonitor from './components/ProductDisplay/ProductDisplayMon
 import ProductDisplayKeyboard from './components/ProductDisplay/ProductDisplayKeyboard';
 import ProductDisplayHeadphone from './components/ProductDisplay/ProductDisplayHeadphone';
 // import Product from './Page/Product';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 900 });
+    AOS.refresh(); 
+  }, []);
   return (
     <div className="App">
-     <BrowserRouter>
+     <BrowserRouter >
      <Navigation />
 
       <Routes>
@@ -49,10 +54,6 @@ function App() {
        
         <Route path='/msi' element = {<Mis />}/>
 
-        {/* <Route path='/product' element = {<Product />} > 
-              
-        </Route> */}
-        
         <Route path='/tuf' element = {<Tuf />} />
         <Route path='/monitorproduct' element= {<MonitorProduct />} />
         <Route path='/keyboard' element= {<Keyboard />} />
@@ -60,12 +61,6 @@ function App() {
         <Route path='/product' element = {<Product />} />
 
 
-
-
-
-
-
-        
         <Route path='/productdisplayasus' element= {<ProductDisplayAsus />} >
             <Route path=':asusID' element = {<ProductDisplayAsus />} />
         </Route>

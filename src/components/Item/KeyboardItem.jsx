@@ -3,7 +3,7 @@ import './ItemsCss/Keyboard.css'
 import { Link, NavLink } from 'react-router-dom'
 const KeyboardItem = (props) => {
   return (
-    <div className='keyboard d-flex flex-column align-items-center  mt-5'>
+    <div className='keyboard d-flex flex-column align-items-center  mt-5' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
        <div className='keyboard-container '>
         <Link to= {`/productdisplaykeyboard/${props.keyboard_id}`}><img className='image-hover' onClick={window.scrollTo(0,0)} src={props.keyboard_back_image} alt='' width={100}/></Link>
         <Link to={`/productdisplaykeyboard/${props.keyboard_id}`}><img className='image-default' onClick={window.scrollTo(0,0)} src={props.keyboard_front_image} alt=''  width={100}/></Link>

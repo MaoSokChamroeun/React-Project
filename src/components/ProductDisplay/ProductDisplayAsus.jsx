@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import './ProductDisplayCss/ProductDisplay.css'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
+import HotProduct from '../HotProduct/HotProduct'
 const ProductDisplayAsus = () => {
     const {asusID} = useParams();
     const asusProduct = asus_product.find((e) => e.asus_id === Number(asusID));
@@ -49,6 +50,7 @@ const ProductDisplayAsus = () => {
     </div>
    
     </div>
+    <HotProduct />
     <Footer/>
     </div>
   )

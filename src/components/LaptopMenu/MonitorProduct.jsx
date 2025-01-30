@@ -6,7 +6,7 @@ import DetailLogo from '../DetialLogo/DetailLogo'
 import monitor_banner from '../Assets/monitor_banner_1.jpg'
 const MonitorProduct = () => {
   return (
-    <div className='monitor'>
+    <div className='monitor' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
         <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>

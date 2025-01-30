@@ -1,55 +1,10 @@
 import React from 'react'
-import tuf_banner_2 from '../Assets/tuf_banner_2.jpg'
-import tuf_banner_3 from '../Assets/tuf_banner_3.jpg'
-import tuf_banner_4 from '../Assets/tuf_banner_4.jpg'
-import tuf_banner_5 from '../Assets/tuf_banner_5.jpg'
-import Footer from '../Footer/Footer'
-import tuf_product from '../Assets/tuf_product'
-import TufItems from '../Item/TufItems'
-import DetailLogo from '../DetialLogo/DetailLogo'
-const Tuf = () => {
+
+const AsusMenu = () => {
   return (
-    <div className='container=fluid' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <section className="container-fluid bg-dark ">
-          <div className="banner d-flex justify-content-center">
-              <div id="demo" className="carousel slide" data-bs-ride="carousel">
-                  <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                  </div>        
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img src={tuf_banner_2} alt="" className="d-block w-100" />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={tuf_banner_3} alt="" className="d-block w-100" />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={tuf_banner_4} alt="" className="d-block w-100" />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={tuf_banner_5} alt="" className="d-block w-100" />
-                  </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon"></span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span className="carousel-control-next-icon"></span>
-                </button>
-              </div>
-        </div>
-    </section>
-    
-    <div className='product-container d-flex'> 
-      <div className='choose-menu'>
-      <h1 className='text-center fw-bold mt-5'>ASUS PRODUCT</h1>
-      <div class="container my-4">
-    <div class="accordion" id="filterAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="seriesHeading">
+         <div class="accordion" id="filterAccordion">
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="seriesHeading">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#seriesCollapse" aria-expanded="true" aria-controls="seriesCollapse">
             SERIES
           </button>
@@ -508,31 +463,9 @@ const Tuf = () => {
         </div>
       </div>
 
-    </div>
-  </div>
+    </div> 
 
-      </div>
-      <div className="item-container">
-        <div className="card-container d-flex flex-wrap gap-4 mx-auto align-items-center justify-content-center">
-          {tuf_product.map((item,i) =>{
-            return <TufItems 
-            key={i}
-            tuf_id = {item.tuf_id}
-            tuf_image = {item.tuf_image}
-            tuf_name = {item.tuf_name}
-            tuf_window = {item.tuf_window}
-            tuf_graphic_card = {item.tuf_graphic_card}
-            tuf_cpu = {item.tuf_cpu}
-            tuf_storage = {item.tuf_storage}
-             />
-          })}
-        </div>
-      </div>
-    </div>
-    <DetailLogo />
-    <Footer />
-    </div>
   )
 }
 
-export default Tuf;
+export default AsusMenu

@@ -3,7 +3,7 @@ import './ItemsCss/TufItems.css'
 import { Link, NavLink } from 'react-router-dom'
 const TufItems = (props) => {
   return (
-    <div className='tuf-gaming'>
+    <div className='tuf-gaming ' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className='tuf-item d-flex flex-column align-items-center'>
            <Link to={`/productdisplaytuf/${props.tuf_id}`}><img onClick={window.scrollTo(0,0)} src={props.tuf_image} alt='' /></Link> 
             <h1 className='fw-bold fs-4 text-center'>{props.tuf_name}</h1>
