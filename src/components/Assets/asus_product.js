@@ -41,7 +41,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -57,7 +57,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -73,7 +73,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -89,7 +89,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -105,7 +105,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -121,7 +121,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -137,7 +137,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -153,7 +153,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -169,7 +169,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -185,7 +185,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -201,7 +201,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -217,7 +217,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -233,7 +233,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -249,7 +249,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -265,7 +265,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -281,7 +281,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -297,7 +297,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -313,7 +313,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -329,7 +329,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -345,7 +345,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -361,7 +361,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -377,7 +377,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -393,7 +393,7 @@
 //         display : '14" 3K (2880 x 1800) 16:10 120Hz OLED ROG Nebula Display',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -409,7 +409,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -425,7 +425,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -441,7 +441,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -457,7 +457,7 @@
 //         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula',
 //         new_price: 999,
 //         old_price: 1009,
-//         asus_detail_1: asus_detail_1,
+//         
 //         asus_detail_2: asus_detail_2,
 //         asus_detail_3: asus_detail_3,
 //         asus_detail_4: asus_detail_4,
@@ -496,10 +496,9 @@ import asus_24 from './asus_24.png'
 import asus_25 from './asus_25.png'
 import asus_26 from './asus_26.png'
 import asus_27 from './asus_27.png'
-import asus_detail_1 from './asus_detail_1.jpg'
-import asus_detail_2 from './asus_detail_2.jpg'
-import asus_detail_3 from './asus_detail_3.png'
-import asus_detail_4 from './asus_detail_4.jpg'
+import asus_detail_2 from '../Assets/asus_detail_2.png'
+import asus_detail_3 from '../Assets/asus_detail_3.png'
+import asus_detail_4 from '../Assets/asus_detail_4.png'
 let asus_product = [
     {
         asus_id: 1,
@@ -512,7 +511,7 @@ let asus_product = [
         display : '13.4" QHD+ (2560 x 1600, WQXGA) 16:10 165Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -528,7 +527,7 @@ let asus_product = [
         display : '17.3" WQHD (2560 x 1440) 16:9 240Hz',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -544,7 +543,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -560,7 +559,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -576,7 +575,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -592,7 +591,7 @@ let asus_product = [
         display : '18" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -608,7 +607,7 @@ let asus_product = [
         display : '18" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -624,7 +623,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz OLED ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -640,7 +639,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz OLED ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -656,7 +655,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -672,7 +671,7 @@ let asus_product = [
         display : '18" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -689,7 +688,7 @@ let asus_product = [
         display : '18" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -705,7 +704,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -721,7 +720,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -737,7 +736,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Displa',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -753,7 +752,7 @@ let asus_product = [
         display : '17.3" WQHD (2560 x 1440) 16:9 240Hz',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -769,7 +768,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -785,7 +784,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula HDR Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -802,7 +801,7 @@ let asus_product = [
         display : ' 13.4" QHD+ (2560 x 1600, WQXGA) 16:10 165Hz ROG Nebula Display ',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -818,7 +817,7 @@ let asus_product = [
         display : '18" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -834,7 +833,7 @@ let asus_product = [
         display : '18" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -850,7 +849,7 @@ let asus_product = [
         display : '18" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -866,7 +865,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz OLED ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -882,7 +881,7 @@ let asus_product = [
         display : '16" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz OLED ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -898,7 +897,7 @@ let asus_product = [
         display : '16" QHD+ (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
 
@@ -916,7 +915,7 @@ let asus_product = [
         display : '18" 2.5K (2560 x 1600, WQXGA) 16:10 240Hz ROG Nebula HDR Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
@@ -932,7 +931,7 @@ let asus_product = [
         display : '14" QHD+ (2560 x 1600, WQXGA) 16:10 165Hz ROG Nebula Display',
         new_price: 999,
         old_price: 1009,
-        asus_detail_1: asus_detail_1,
+        
         asus_detail_2: asus_detail_2,
         asus_detail_3: asus_detail_3,
         asus_detail_4: asus_detail_4,
