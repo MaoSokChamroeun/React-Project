@@ -34,7 +34,7 @@ function App() {
     AOS.refresh(); 
   }, []);
   return (
-    jskdfhdsk
+    
     <div className="App">
      <BrowserRouter >
      <Navigation />
