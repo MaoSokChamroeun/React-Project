@@ -3,3 +3,64 @@ hr{
     height: 3px;
     background-color: black;
 }
+/* .search-bar .btn-moon{
+    background-color: blue;
+} */
+ .search-icon{
+    background-color: white;
+    color: black;
+ }
+ .btn-moon{
+    background-color: white;
+ }
+ .shop-card{
+    background-color: white;
+ }
+.navbar-container{
+    background-color: white;
+}
+.navbar-container ul li .list-text{
+    color: black;
+}
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .navbar-container{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+  
+  } 
+  .dark-mode .navbar-container ul li .list-text{
+
+    --text-color: #ffffff;
+    
+    color: var(--text-color);
+  } 
+
+  .dark-mode .search-icon{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--base-color);
+  }
+  .dark-mode .search-icon{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--base-color);
+  }
+  .dark-mode .btn-moon{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--base-color);
+  }
+  .dark-mode .shop-card{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--base-color);
+  }

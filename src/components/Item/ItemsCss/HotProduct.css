@@ -3,6 +3,7 @@
     height: 600px;
     background-color: rgb(216, 214, 214);
     display: flex;
+    border: 1px solid white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,3 +24,20 @@
     
   
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .hotproduct-item{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .box-laptop h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

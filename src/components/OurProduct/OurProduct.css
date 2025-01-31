@@ -2,3 +2,27 @@
     scale: 0.8;
     transition: all 0.2s ease-in;
 }
+.detail-logo-brand{
+    border: 1px solid white;
+   background-color: rgb(179, 189, 189);
+}
+.our-product h1{
+    color: black;
+}
+
+  :root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .detail-logo-brand{
+    --base-color: #0c0c0c;
+    background-color: var(--base-color);
+  
+  } 
+  .dark-mode .our-product h1{
+
+    --text-color: #ffffff;
+    
+    color: var(--text-color);
+  } 

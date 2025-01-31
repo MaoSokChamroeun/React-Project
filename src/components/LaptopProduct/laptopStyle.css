@@ -2,5 +2,22 @@
     max-width: 1600px;
     margin: auto;
     cursor: pointer;
-   
+  
 }
+/* .laptop-product h1 , p{
+    color: white;
+}
+:root {
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .laptop-product{
+   
+    --text-color: #ffffff;
+   
+    color: var(--text-color);
+  } 
+  .dark-mode .laptop-product h1 p{
+    --text-color: #ffffff;
+    color: var(--text-color);
+  }  */

@@ -6,7 +6,7 @@ import './Ralated.css'
 const Related = () => {
 
   return (
-    <div className='mt-5 '>
+    <div className='mt-5 relateed-product'>
      <h1 class="fw-bolder text-center">Related Product</h1>
     <div className='bg-secondary p-2 mt-5'>
      

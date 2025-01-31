@@ -1,7 +1,25 @@
 .box-laptop{
     width: 510px;
     height: 529px;
-    background-color: rgb(235, 232, 232);
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 233, 233);
     border: 1px solid gray;
     padding: 5px;
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .box-laptop{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .box-laptop h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

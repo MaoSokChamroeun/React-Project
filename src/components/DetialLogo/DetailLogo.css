@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     object-fit: contain;
+    border: 1px solid white;
     margin: auto;
     padding: 20px;
     box-shadow:inset 0px 2px 15px 5px rgba(0,0,0,0.4);
@@ -25,3 +26,14 @@ marquee{
 marquee img{
     margin-left: 150px;
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+  
+  }
+  
+  .dark-mode .detial-container{
+    --base-color: #000000;
+    
+    background-color: var(--base-color);
+   
+  } 

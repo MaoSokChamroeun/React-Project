@@ -20,3 +20,15 @@ span{
     height: 72px; 
     border: none;
 }
+.related-product h1{
+    color: black;
+}
+
+:root {
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .related-product h1{
+    --text-color: #ffffff;
+    color: var(--text-color);
+  } 
