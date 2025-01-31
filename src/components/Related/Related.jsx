@@ -8,7 +8,7 @@ const Related = () => {
   return (
     <div className='mt-5 relateed-product'>
      <h1 class="fw-bolder text-center">Related Product</h1>
-    <div className='bg-secondary p-2 mt-5'>
+    <div className=' p-2 mt-5'>
      
         <div className="related-container  mt-5 container-fluid d-flex align-items-center justify-content-center my-9">
         <div data-aos="fade-right">

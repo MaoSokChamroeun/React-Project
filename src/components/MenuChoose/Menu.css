@@ -3,7 +3,12 @@
     height: 75px;
     
 }
-
+.menu-choose h1{
+    color: black;
+}
+.menu-choose p{
+    color: black;
+}
 .btn[type="button"]{
     border: 1px solid black;
 }
@@ -24,3 +29,25 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .detail-logo-brand{
+    --base-color: #0c0c0c;
+    background-color: var(--base-color);
+  
+  } 
+  .dark-mode .menu-choose h1{
+
+    --text-color: #ffffff;
+    
+    color: var(--text-color);
+  } 
+  .dark-mode .menu-choose p{
+
+    --text-color: #ffffff;
+    
+    color: var(--text-color);
+  } 

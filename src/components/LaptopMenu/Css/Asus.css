@@ -5,14 +5,54 @@
 }
 .choose-menu{
     width: 450px;
-    
+    border: 1px solid white;
 }
-
+.box-menu {
+  background-color: white;
+}
 .item-container{
     width: 100%;
-    background-color: blue;
+   
 }
 .card-container{
     width: 100%;
     background-color: rgb(235, 235, 235);
+    border: 1px solid white;
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .product-container{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .product-container h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .card-container{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .choose-menu{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .box-menu{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

@@ -14,10 +14,12 @@ span{
     width: 182px; 
     height: 72px; 
     border: none;
+    background-color: white;
 }
 .btn-info{
     width: 327px; 
     height: 72px; 
+    background-color: white;
     border: none;
 }
 .related-product h1{

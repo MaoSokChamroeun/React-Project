@@ -2,11 +2,12 @@ import React from 'react'
 import banner_1 from '../Assets/banner-1.jpg'
 import banner_2 from '../Assets/banner-2.jpg'
 import banner_3 from '../Assets/banner-3.webp'
+import './Hero.css'
 const Hero = () => {
   return (
-    <div className='container-fluid'   data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <section class="container-fluid bg-dark ">
-          <div class="banner d-flex justify-content-center">
+    <div className='container-fluid main-hero'   data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+        <section class="container-fluid bg-dark">
+          <div class="banner d-flex justify-content-center ">
               <div id="demo" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>

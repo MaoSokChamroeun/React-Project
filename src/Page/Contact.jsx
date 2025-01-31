@@ -4,7 +4,7 @@ import logo from '../components/Assets/logo.png'
 import './css/Contact.css'
 const Contact = () => {
   return (
-    <div className='bg-dark-subtle'>
+    <div className=''>
       <div class="container contact-container">
   <div class="row justify-content-center">
     <div class="col-lg-8">

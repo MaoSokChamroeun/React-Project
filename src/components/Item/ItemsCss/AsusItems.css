@@ -3,7 +3,7 @@
     width: 380px;
     height: 680px;
     background-color: rgb(214, 214, 214);
-    
+    border: 1px solid white;
 }
 
 .btn-learn-more{
@@ -19,3 +19,20 @@
     text-decoration: none;
     letter-spacing: 1.5;
 }
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .asus-item{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .asus-item h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

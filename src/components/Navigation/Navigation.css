@@ -17,6 +17,13 @@ hr{
     background-color: white;
  }
 .navbar-container{
+    position: fixed;
+    
+    overflow: hidden;
+    display: block;
+    z-index: 999;
+    height: 100px;
+    top: 0;
     background-color: white;
 }
 .navbar-container ul li .list-text{

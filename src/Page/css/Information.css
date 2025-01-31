@@ -6,6 +6,7 @@ body {
     background-size: cover;
     color: white;
     padding: 160px 15px;
+    margin-top: 110px;
     text-align: center;
   }
   .information-hero-section h1 {
@@ -45,4 +46,10 @@ body {
   .btn-explor-products a{
     color: #000;
     font-weight: 600;
+  }
+
+  .img-features{
+    border: 1px solid white;
+    padding: 20px;
+    
   }

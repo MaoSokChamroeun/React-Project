@@ -1,12 +1,12 @@
-body {
-    background-color: #e7e7e7;
-  }
+
   .contact-container {
     padding: 50px 15px;
+    margin-top: 90px;
   }
   .form-container {
-    background: #fff;
+    background: #cfcfcf;
     padding: 30px;
+    
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }

@@ -10,8 +10,8 @@ const Navigation = () => {
 
   return (
     <div className='container-fluid navbar-container'>
-      <div className='  d-flex align-items-center justify-content-between '>
-        <Link to='/'><img src={logo} alt='' width={150}/></Link>
+      <div className='d-flex align-items-center justify-content-between '>
+        <Link to='/'><img  src={logo} alt='' width={150}/></Link>
         <nav class="navbar navbar-expand-lg">
        <div class="container-fluid">
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPillsExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
