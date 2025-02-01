@@ -10,8 +10,8 @@ import DetailLogo from '../DetialLogo/DetailLogo'
 const Tuf = () => {
   return (
     <div className='container=fluid' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <section className="container-fluid bg-dark ">
-          <div className="banner d-flex justify-content-center">
+        <section className="container-fluid  ">
+          <div className="banner d-flex justify-content-center" style={{margin: '110px'}}>
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
@@ -45,7 +45,7 @@ const Tuf = () => {
     
     <div className='product-container d-flex'> 
       <div className='choose-menu'>
-      <h1 className='text-center fw-bold mt-5'>ASUS PRODUCT</h1>
+      <h1 className='text-center fw-bold mt-2'>ASUS PRODUCT</h1>
       <div class="container my-4">
     <div class="accordion" id="filterAccordion">
       <div class="accordion-item">

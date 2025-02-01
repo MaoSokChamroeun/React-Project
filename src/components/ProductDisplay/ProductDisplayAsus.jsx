@@ -24,8 +24,8 @@ const ProductDisplayAsus = () => {
         return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>   
     }
   return (
-    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-    <div className='product-display-asus'>
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" style={{margin: '110px'}}>
+    <div className='product-display-asus' >
     <div class="container py-5">
     <div class="gallery-container mx-auto">
       <div class="main-image-container mb-3">

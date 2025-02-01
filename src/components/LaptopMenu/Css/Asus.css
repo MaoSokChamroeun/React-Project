@@ -3,6 +3,9 @@
     background-color: rgb(235, 235, 235);
     margin: auto;
 }
+.asus-container{
+  margin-top: 110px;
+}
 .choose-menu{
     width: 450px;
     border: 1px solid white;

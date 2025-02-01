@@ -4,6 +4,7 @@ import { ShopContext } from "../Context/ShopContext";
 import { Link } from "react-router-dom";
 import msi_product from "../Assets/msi_product";
 import Footer from "../Footer/Footer";
+import HotProduct from "../HotProduct/HotProduct";
 const ProductDisplayMsi = () => {
     const {msiID} = useParams()
    const msiProduct = msi_product.find((e) => e.msi_id === Number(msiID));
@@ -23,7 +24,7 @@ const ProductDisplayMsi = () => {
     return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
    }
   return (
-    <div>
+    <div style={{margin: '110px'}}>
     <div className='product-display-asus'>
     <div class="container py-5">
     <div class="gallery-container mx-auto">
@@ -67,6 +68,8 @@ const ProductDisplayMsi = () => {
     </div>
    
     </div>
+
+    <HotProduct />
     <Footer/>
     </div>
   )

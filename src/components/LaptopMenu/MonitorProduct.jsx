@@ -7,18 +7,14 @@ import monitor_banner from '../Assets/monitor_banner_1.jpg'
 const MonitorProduct = () => {
   return (
     <div className='monitor' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <div id="demo" className="carousel slide" data-bs-ride="carousel">
+        <div id="demo" className="carousel slide" data-bs-ride="carousel" style={{margin: '110px'}}>
                   <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
-                   
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>              
                   </div>        
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
+                <div className="carousel-inner ">
+                  <div className="carousel-item active" >
                     <img src={monitor_banner} alt="" className="d-block w-100" />
                   </div>
-                 
-                 
-                 
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon"></span>
@@ -29,7 +25,7 @@ const MonitorProduct = () => {
               </div>
     <div className='product-container d-flex'> 
       <div className='choose-menu'>
-      <h1 className='text-center fw-bold mt-5 fs-3'>MONITOR GAMING</h1>
+      <h1 className='text-center fw-bold mt-2 fs-3'>MONITOR GAMING</h1>
       <div class="container my-4">
     <div class="accordion" id="filterAccordion">
       <div class="accordion-item">

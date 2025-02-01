@@ -9,7 +9,7 @@ const ProductDisplayHeadphone = () => {
         return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
     }
   return (
-    <div className='product-display-headphone'>
+    <div className='product-display-headphone' style={{margin: '110px'}}>
          <h1>HeadPhone</h1>
          <img src={headphoneProduct.headphone_image} alt=''/>   
     </div>

@@ -9,7 +9,7 @@ const ProductDisplayTuf = () => {
     return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
   }
   return (
-    <div className='product-display-tuf'>
+    <div className='product-display-tuf' style={{margin: '110px'}}>
       <h1>Tuf Gaming</h1>
       <img src={tufProduct.tuf_image} alt=' ' />
     </div>

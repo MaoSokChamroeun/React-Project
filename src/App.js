@@ -33,6 +33,7 @@ function App() {
     AOS.init({ duration: 900 });
     AOS.refresh(); 
   }, []);
+  window.history.scrollRestoration = "manual";
   return (
     
     <div className="App">

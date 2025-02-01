@@ -9,7 +9,7 @@ const ProductDisplayMonitor = () => {
         return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
     }
   return (
-    <div className='product-display-monitor'>
+    <div className='product-display-monitor' style={{margin: '110px'}}>
        <h1>Monitor</h1>
        <img src={monitorProduct.monitor_image} alt=''/>
     </div>

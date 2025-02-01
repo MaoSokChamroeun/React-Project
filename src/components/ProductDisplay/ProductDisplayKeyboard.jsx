@@ -9,7 +9,7 @@ const ProductDisplayKeyboard = () => {
         return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
     }
   return (
-    <div>
+    <div style={{margin: '110px'}}>
        <h1>Keyboard</h1>
        <img src={keyboardProduct.keyboard_front_image} alt=''/>
     </div>

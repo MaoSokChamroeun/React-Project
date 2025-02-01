@@ -10,9 +10,9 @@ import KeyboardItem from '../Item/KeyboardItem'
 import DetailLogo from '../DetialLogo/DetailLogo'
 const Keyboard = () => {
   return (
-    <div className='container=fluid'   data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <section className="container-fluid bg-dark ">
-          <div className="banner d-flex justify-content-center">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+        <section className="container-fluid ">
+          <div className="banner d-flex justify-content-center" style={{margin: '110px'}}>
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>

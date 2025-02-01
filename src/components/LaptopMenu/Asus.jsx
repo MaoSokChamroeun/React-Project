@@ -13,8 +13,8 @@ import AsusMenu from './AsusMenu';
 const Asus = () => {
 
   return (
-    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-         <section className="container-fluid bg-dark ">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='asus-container'>
+         <section className="container-fluid  ">
           <div className="banner d-flex justify-content-center">
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
