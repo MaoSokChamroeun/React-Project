@@ -11,7 +11,7 @@ const About = () => {
       <section class="hero-section text-md-start">
         <div className="container first-text ">
           <div class="first-text-left">
-          <h1>About Us</h1>
+          <h1 class="fw-bold">About Us</h1>
           <p >
             Your one-stop destination for high-performance laptops, tailored to
             your needs. Our journey began with a vision to provide top-tier computing solutions to individuals, professionals, and businesses alike.
@@ -26,7 +26,7 @@ const About = () => {
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-              <h2>Who We Are</h2>
+              <h2 class="fw-bold">Who We Are</h2>
               <p class="text-muted mt-3">
                 At <strong>TechConnect Laptops</strong>, we pride ourselves on
                 being a trusted provider of top-quality laptops for students,
@@ -66,7 +66,7 @@ const About = () => {
       <section class="services-section bg-secondary">
         <div class="container">
           <div class="text-center mb-5 ">
-            <h2>What We Offer</h2>
+            <h2 class="fw-bold">What We Offer</h2>
             <p>
               Explore our range of laptops and services designed for everyone.
             </p>
@@ -99,7 +99,7 @@ const About = () => {
       <section class="team-section bg-light py-5">
         <div class="container">
           <div class="text-center mb-5">
-            <h2>Meet the Team</h2>
+            <h2 class="fw-bold">Meet the Team</h2>
             <p class="text-muted">
               Our dedicated team ensures you have a seamless shopping
               experience.
