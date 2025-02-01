@@ -11,15 +11,17 @@ span{
 }
 
 .btn-buy{
+    color: white;
     width: 182px; 
     height: 72px; 
     border: none;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 .btn-info{
     width: 327px; 
     height: 72px; 
-    background-color: white;
+    color: white;
+    background-color: rgb(0, 0, 0);
     border: none;
 }
 .related-product h1{

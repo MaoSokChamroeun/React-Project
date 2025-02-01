@@ -16,7 +16,7 @@ const Related = () => {
                 <p ><span  className="fw-bolder text-white">ASUS ROG </span>GAMING LAPTOP</p>
                 <p className="fs-5 fw-bold">ROG, or Republic of Gamers, is a company that makes gaming products for enthusiasts and gamers. ROG's products include laptops, monitors, phones, and more. The company's mission is to create innovative products that offer exceptional gaming experiences.</p>
                 <div className="button-product d-flex gap-4">
-                 <button className="btn-buy bg-white text-black rounded-5 fs-6 fw-bolder d-flex align-items-center justify-content-center gap-1">BUY NOW
+                 <button className="btn-buy  rounded-5 fs-6 fw-bolder d-flex align-items-center justify-content-center gap-1">BUY NOW
                  <img src={card_shopping} width={20} alt='' />
                  </button>
                 <button className="btn-info rounded-5 fs-6 fw-bolder">INFOR MORE!</button>
