@@ -1,9 +1,17 @@
 import React from "react";
 import "./Service.css";
 import { IoSearchOutline } from "react-icons/io5";
+import service1 from "../Assets/service_1.png";
+import service2 from "../Assets/service_2.png";
+import service3 from "../Assets/service_3.png";
+import service4 from "../Assets/service_4.png";
 const Service = () => {
   return (
-    <div className="servies"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+    <div
+      className="servies"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <section id="services">
         <div class="service-banner">
           <div class="text-center text-banner">
@@ -75,7 +83,6 @@ const Service = () => {
           <div class="main-line"></div>
           <div class="line"></div>
         </div>
-
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
             <div class="center">
@@ -83,7 +90,7 @@ const Service = () => {
                 <img
                   id="data-recovery"
                   class=""
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqUy1JbCgLcpuT9vmw31kbsorKV5PI2soagg&s"
+                  src={service2}
                   alt="data-recovery"
                 />
               </div>
@@ -99,7 +106,7 @@ const Service = () => {
                 <img
                   id="computer-repair"
                   class=""
-                  src="https://cdn-icons-png.flaticon.com/512/1803/1803202.png"
+                  src={service1}
                   alt="computer rapaired"
                 />
               </div>
@@ -116,11 +123,11 @@ const Service = () => {
                 <img
                   id="cleaning-service"
                   class=""
-                  src="https://cdn-icons-png.flaticon.com/512/1276/1276982.png"
+                  src={service3}
                   alt="cleaning-service"
                 />
               </div>
-              <h5 class="text-center mt-2">Cleaning service</h5>
+              <h5 class="text-center mt-2">Mobie service</h5>
               <p class="text-center service-text-h4">
                 Persspiciatis eos quos totam cum minima aut.
               </p>
@@ -133,7 +140,7 @@ const Service = () => {
                 <img
                   id="network-solution"
                   class=""
-                  src="https://www.shutterstock.com/image-vector/server-global-location-concept-content-260nw-1849210243.jpg"
+                  src={service4}
                   alt="network-solution"
                 />
               </div>
@@ -143,8 +150,6 @@ const Service = () => {
               </p>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>

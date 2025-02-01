@@ -34,7 +34,7 @@ function App() {
     AOS.refresh(); 
   }, []);
   return (
-    
+
     <div className="App">
      <BrowserRouter >
      <Navigation />
