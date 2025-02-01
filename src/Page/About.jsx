@@ -39,21 +39,21 @@ const About = () => {
           </div>
           <div class="row mt-5">
             <div class="col-md-4 text-center mt-3">
-              <h3>Our Mission</h3>
+              <h3 class="fw-bold">Our Mission</h3>
               <p class="text-muted">
                 To empower people by providing reliable, high-performance
                 laptops tailored to meet diverse needs.
               </p>
             </div>
             <div class="col-md-4 text-center shadow-lg">
-              <h3 class="pt-3">Our Vision</h3>
+              <h3 class="pt-3 fw-bold ">Our Vision</h3>
               <p class="text-muted ">
                 To become the leading laptop seller by combining affordability,
                 innovation, and excellent service.
               </p>
             </div>
             <div class="col-md-4 text-center mt-3">
-              <h3>Our Promise</h3>
+              <h3 class="fw-bold">Our Promise</h3>
               <p class="text-muted">
                 Every product we sell is backed by our commitment to quality and
                 customer satisfaction.
@@ -73,7 +73,7 @@ const About = () => {
           </div>
           <div class="row text-center ">
             <div class="col-md-4 shadow-lg ">
-              <h3 class="p-3">Top Brands</h3>
+              <h3 class="pt-3">Top Brands</h3>
               <p>
                 We stock laptops from top brands like Dell, HP, Lenovo, Asus,
                 and more.
@@ -87,7 +87,7 @@ const About = () => {
               </p>
             </div>
             <div class="col-md-4 shadow-lg">
-              <h3 class="p-3">Expert Support</h3>
+              <h3 class="pt-3">Expert Support</h3>
               <p>
                 Our team provides guidance and after-sales support to ensure
                 you’re satisfied.
@@ -118,7 +118,7 @@ const About = () => {
             </div>
             <div class="col-md-4">
               <img src={reach} alt="Team Member" class="img-fluid mb-3" />
-              <h5>Mi AknuReach</h5>
+              <h5>Mi Aknureach</h5>
               <p class="text-muted">Team</p>
             </div>
           </div>
