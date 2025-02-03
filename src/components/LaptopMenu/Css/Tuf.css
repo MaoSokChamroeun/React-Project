@@ -3,13 +3,13 @@
     --text-color: #ffffff;
   }
   
-  .dark-mode .btn-msi{
+  .dark-mode .tuf-cheak-box{
     --base-color: #000000;
     --text-color: #ffffff;
     background-color: var(--base-color);
     color: var(--text-color);
   } 
-  .dark-mode .msi-box-list{
+  .dark-mode .btn-tuf{
     --base-color: #000000;
     --text-color: #ffffff;
     background-color: var(--base-color);

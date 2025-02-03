@@ -1,6 +1,7 @@
 .tuf-gaming{
     margin-top: 10px;
     width: 380px;
+    border: 1px solid white;
     height: 560px;
     background-color: rgb(223, 223, 223);
 }
@@ -19,3 +20,21 @@
     height: 180px;
     
 }
+
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .tuf-box-list{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .asus-item h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
