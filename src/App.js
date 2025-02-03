@@ -35,7 +35,7 @@ function App() {
   }, []);
   window.history.scrollRestoration = "manual";
   return (
-    
+
     <div className="App">
      <BrowserRouter >
      <Navigation />

@@ -5,6 +5,7 @@
 .infor-msi{
     margin-top: 60px;
     width: 380px;
+    border: 1px solid white;
     height: 500px;
     background-color: rgb(223, 223, 223);
     
@@ -17,3 +18,21 @@
     font-size: 17px;
     margin-bottom: 20px;
 }
+
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .infor-msi{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .asus-item h1{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

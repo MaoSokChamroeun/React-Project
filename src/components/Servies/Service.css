@@ -1,77 +1,77 @@
 body {
-    background-color: #f9f9f9;
-    font-family: 'Poppin', sans-serif;
-  }
-  .service-banner{
-    background: url('https://mediawebimg.asus.com/gain/30813EA4-0FAF-4839-847E-81ED744D72B1/fwebp') no-repeat center center;
-    background-size: cover;
-    color: white;
-    padding: 180px 15px;
-    text-align: center;
-    height: 60vh;
-  }
- 
-  #search-input{
-    width: 100%;
+  background-color: #f9f9f9;
+  font-family: 'Poppin', sans-serif;
+}
+.service-banner{
+  background: url('../Assets/service_banner.webp') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 180px 15px;
+  text-align: center;
+  height: 60vh;
+}
+
+#search-input{
+  width: 100%;
+
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Poppin', sans-serif;
+  border: none;
   
-    background-color: transparent;
-    color: #fff;
-    font-family: 'Poppin', sans-serif;
-    border: none;
-    
-    outline: none;
-    
-  }
-  .search-service{
-    background-color:transparent;
-    color: white;
-    width: 30%;
-    height: 80px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 20px;
-    border: 1px solid rgb(119, 119, 119);
-   
-  }
-  .line{
-    width: 20px;
-    height: 2px;
-    background-color: gray;
+  outline: none;
+  
 }
-.main-line{
-    height: 4px;
-    background-color: #37517e;
-    width: 180px;
-}
-.letter{
-  color: #747070;
-  font-weight: 300;
-}
-.icon-service{
+.search-service{
+  background-color:transparent;
+  color: white;
+  width: 30%;
+  height: 80px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid rgb(119, 119, 119);
+ 
+}
+.line{
+  width: 20px;
+  height: 2px;
+  background-color: gray;
+}
+.main-line{
+  height: 4px;
+  background-color: #37517e;
+  width: 180px;
+}
+.letter{
+color: #747070;
+font-weight: 300;
+}
+.icon-service{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 #data-recovery{
-  
-  width: 100px;
-  height: auto;
-  
+
+width: 100px;
+height: auto;
+
 }
 .service-text-h4{
-  color: rgb(128, 128, 128);
-  font-weight: 300;
-  font-size: 16px;
+color: rgb(128, 128, 128);
+font-weight: 300;
+font-size: 16px;
 }
 #computer-repair{
-  width: 100px;
+width: 100px;
 }
 #cleaning-service{
-  width: 100px;
+width: 100px;
 }
 #network-solution{
-  width: 100px;
+width: 100px;
 }

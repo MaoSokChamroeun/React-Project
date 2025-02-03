@@ -11,13 +11,13 @@ const Footer = () => {
                     <p>Your go-to solution for amazing services and products.</p>
                 </div>
                 <div class="col-md-3">
-                    <h5>Cheak Product</h5>
+                    <h5>Check Products</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/" class="text-white  smooth-scroll">Home</a></li>
-                        <li><a href="/about" class="text-white  smooth-scroll">About</a></li>
-                        <li><a href="/contact" class="text-white  smooth-scroll">Contact</a></li>
-                        <li><a href="#technology" class="text-white  smooth-scroll">Laptop</a></li>
-                        <li><a href="#product" class="text-white  smooth-scroll">Accessories</a></li>
+                        <li><a href="/" class="text-white  smooth-scroll nav-link">Home</a></li>
+                        <li><a href="/about" class="text-white  smooth-scroll nav-link">About</a></li>
+                        <li><a href="/contact" class="text-white  smooth-scroll nav-link">Contact</a></li>
+                        <li><a href="#technology" class="text-white  smooth-scroll nav-link">Laptop</a></li>
+                        <li><a href="#product" class="text-white  smooth-scroll nav-link">Accessories</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -38,10 +38,10 @@ const Footer = () => {
                 <div class="col-md-3">
                     <h5>Follow Us</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/" class="text-white">Facebook <i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="/" class="text-white">Twitter <i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="/" class="text-white">Instagram <i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="/" class="text-white">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="/" class="text-white nav-link">Facebook <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="/" class="text-white nav-link">Twitter <i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="/" class="text-white nav-link">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="/" class="text-white nav-link">Telegram <i class="fa-brands fa-telegram"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -5,8 +5,8 @@ import banner_3 from '../Assets/banner-3.webp'
 import './Hero.css'
 const Hero = () => {
   return (
-    <div className='container-fluid main-hero'   data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <section class="container-fluid bg-dark">
+    <div className='container-fluid main-hero' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+        <section class="container-fluid">
           <div class="banner d-flex justify-content-center ">
               <div id="demo" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
