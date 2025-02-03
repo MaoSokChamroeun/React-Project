@@ -97,7 +97,7 @@ const Mis = () => {
       <h1 className='text-center fw-bold mt-5'>MSI PRODUCT</h1>
       <div class="container my-4 ">
     <div class="accordion" id="filterAccordion ">
-      <div class="accordion-item ">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="seriesHeading">
           <button class="accordion-button btn-msi" type="button" data-bs-toggle="collapse" data-bs-target="#seriesCollapse" aria-expanded="true" aria-controls="seriesCollapse">
             SERIES
@@ -128,7 +128,7 @@ const Mis = () => {
       </div>
 
     
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="gpuHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gpuCollapse" aria-expanded="false" aria-controls="gpuCollapse">
             GPU
@@ -217,7 +217,7 @@ const Mis = () => {
       </div>
 
       
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="cpuHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cpuCollapse" aria-expanded="false" aria-controls="cpuCollapse">
             CPU
@@ -289,7 +289,7 @@ const Mis = () => {
       </div>
 
     
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="displaySizeHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#displaySizeCollapse" aria-expanded="false" aria-controls="displaySizeCollapse">
             DISPLAY SIZE
@@ -333,7 +333,7 @@ const Mis = () => {
 
 
       
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="displayTypeHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#displayTypeCollapse" aria-expanded="false" aria-controls="displayTypeCollapse">
             DISPLAY TYPE
@@ -401,7 +401,7 @@ const Mis = () => {
       </div>
 
 
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="memoryHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#memoryCollapse" aria-expanded="false" aria-controls="memoryCollapse">
             MEMORY
@@ -431,7 +431,7 @@ const Mis = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="storagHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#storagCollapse" aria-expanded="false" aria-controls="storagCollapse">
             STORAGE
@@ -473,7 +473,7 @@ const Mis = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="connectivityHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#connectivityCollapse" aria-expanded="false" aria-controls="connectivityCollapse">
             CONNECTIVITY
@@ -509,7 +509,7 @@ const Mis = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="betteryHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#betteryCollapse" aria-expanded="false" aria-controls="betteryCollapse">
             BATTERY
@@ -533,7 +533,7 @@ const Mis = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div class="accordion-item msi-box-list">
         <h2 class="accordion-header" id="networkingHeading">
           <button class="accordion-button btn-msi collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#networkingCollapse" aria-expanded="false" aria-controls="networkingCollapse">
             NETWORKING
