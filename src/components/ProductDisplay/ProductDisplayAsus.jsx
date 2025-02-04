@@ -16,6 +16,8 @@ const ProductDisplayAsus = () => {
             asusProduct.asus_detail_2,
             asusProduct.asus_detail_3,
             asusProduct.asus_detail_4,
+          
+            
           ];
           const changeImage = (src) => {
             if (src) setMainImage(src);
