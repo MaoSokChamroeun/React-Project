@@ -1,5 +1,10 @@
 import React from 'react'
 import logo from '../Assets/logo.png'
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { LiaTelegram } from "react-icons/lia";
+
 const Footer = () => {
   return (
     <div>
@@ -32,16 +37,16 @@ const Footer = () => {
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter your password" />
                         </div>
-                        <button type="submit" class="btn btn-light">Submit</button>
+                        <button type="submit" class="btn btn-light">Send</button>
                     </form>
                 </div>
                 <div class="col-md-3">
                     <h5>Follow Us</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/" class="text-white nav-link">Facebook <i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="/" class="text-white nav-link">Twitter <i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="/" class="text-white nav-link">Instagram <i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="/" class="text-white nav-link">Telegram <i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="/" class="text-white nav-link"> <FaFacebookF /> Facebook</a></li>
+                        <li><a href="/" class="text-white nav-link"> <FaXTwitter /> Twitter </a></li>
+                        <li><a href="/" class="text-white nav-link"> <FaInstagram /> Instagram </a></li>
+                        <li><a href="/" class="text-white nav-link"> <LiaTelegram /> Telegram </a></li>
                     </ul>
                 </div>
             </div>
