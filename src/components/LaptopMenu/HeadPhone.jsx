@@ -45,7 +45,7 @@ const HeadPhone = () => {
   </div>
 
       </div>
-      <div className="item-container">
+      <div className="item-container ">
         <div className="card-container d-flex flex-wrap gap-4 mx-auto align-items-center justify-content-center">
           {headphone_product.map((item,i) =>{
             return <HeadphoneItem 

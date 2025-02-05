@@ -3,6 +3,8 @@
     font-family: Arial, sans-serif;
     display: flex;
     width: 80%;
+    padding: 10px;
+    border: 1px solid white;
     margin: auto;
     justify-content: center;
     min-height: 80vh;
@@ -45,6 +47,8 @@
   }
 .display-right{
     width: 50%;
+    
+    border: 1px solid white;
     padding: 50px;
     background-color: rgb(230, 230, 230);
 }
@@ -86,3 +90,17 @@
     
     cursor: pointer;
 }
+
+.dark-mode .product-display-asus{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 
+
+.dark-mode .display-right{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 

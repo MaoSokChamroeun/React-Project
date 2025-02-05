@@ -2,9 +2,30 @@
     background-color: rgb(221, 221, 221);
     height: 590px;
     padding: 5px;
+    border: 1px solid white;
 }
 .headphone-description{
     width: 330px;
     margin-top: 20px;
     padding: 10px;
 }
+.dark-mode .menu-headphone{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .btn-menu-headphone{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .headphone-item{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

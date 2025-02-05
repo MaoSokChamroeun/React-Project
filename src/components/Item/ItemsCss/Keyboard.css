@@ -33,9 +33,31 @@
 .keyboard{
     background-color: rgb(216, 216, 214);
     padding: 10px;
+    border: 1px solid white;
     width: 400px;
     height: 600px;
 }
 .keyboard-btn{
     margin-top: -40px;
 }
+
+.dark-mode .menu-keyboard{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .btn-menuu-keyboard{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .keyboard{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
