@@ -492,13 +492,16 @@ import asus_20 from './asus_20.png'
 import asus_21 from './asus_21.png'
 import asus_22 from './asus_22.png'
 import asus_23 from './asus_23.png'
-import asus_24 from './asus_24.png'
-import asus_25 from './asus_25.png'
+
 import asus_26 from './asus_26.png'
 import asus_27 from './asus_27.png'
 import asus_detail_2 from '../Assets/asus_detail_2.png'
 import asus_detail_3 from '../Assets/asus_detail_3.png'
 import asus_detail_4 from '../Assets/asus_detail_4.png'
+import rog_scar_detail_1 from './rog_scar_detial_1.png'
+import rog_scar_detail_2 from './rog_scar_detail_2.png'
+import rog_scar_detail_3 from './rog_scar_detail_3.png'
+
 let asus_product = [
     {
         asus_id: 1,
@@ -527,10 +530,9 @@ let asus_product = [
         display : '17.3" WQHD (2560 x 1440) 16:9 240Hz',
         new_price: 999,
         old_price: 1009,
-        
-        asus_detail_2: asus_detail_2,
-        asus_detail_3: asus_detail_3,
-        asus_detail_4: asus_detail_4,
+        asus_detail_2: rog_scar_detail_1,
+        asus_detail_3: rog_scar_detail_2,
+        asus_detail_4: rog_scar_detail_3,
     },
     {
         asus_id: 3,

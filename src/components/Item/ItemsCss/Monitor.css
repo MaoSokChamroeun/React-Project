@@ -1,5 +1,30 @@
 
 .monitor-infor{
     padding: 10px;
+    border: 1px solid white;
     background-color: rgb(221, 222, 223);
 }
+
+:root {
+    --base-color: rgb(0, 0, 0);
+    --text-color: #ffffff;
+  }
+  
+  .dark-mode .menu-monitor{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  }
+  .dark-mode .btn-menu-monitor{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  }  
+  .dark-mode .monitor-infor{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
