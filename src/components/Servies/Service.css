@@ -37,15 +37,15 @@ body {
   border: 1px solid rgb(119, 119, 119);
  
 }
-.line{
+/* .line{
   width: 20px;
   height: 2px;
   background-color: gray;
-}
+} */
 .main-line{
   height: 4px;
   background-color: #37517e;
-  width: 180px;
+  width: 150px;
 }
 .letter{
 color: #747070;
@@ -62,8 +62,8 @@ width: 100px;
 height: auto;
 
 }
-.service-text-h4{
-color: rgb(128, 128, 128);
+.service-text{
+  color: #747070;
 font-weight: 300;
 font-size: 16px;
 }
@@ -75,4 +75,32 @@ width: 100px;
 }
 #network-solution{
 width: 100px;
+}
+
+.all-icon-service-process{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  
+  
+}
+.icon-fast-service{
+  width: 100px;
+  height: 100px;
+}
+.icon-secure-payment{
+  width: 100px;
+  height: 100px;
+}
+.icon-expert-team{
+  width: 100px;
+  height: 100px;
+}
+
+.service-process-text{
+  color: #747070;
+  font-weight: 300;
+  font-size: 15px;
+  width: 120%;
+  
 }

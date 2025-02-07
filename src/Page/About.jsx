@@ -7,19 +7,24 @@ import reach from "../components/Assets/reach.JPG";
 
 const About = () => {
   return (
-    <div className="bg-dark-subtle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <section class="hero-section text-md-start">
+    <div
+      className="bg-dark-subtle"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <section class="hero-section text-md-start ">
         <div className="container first-text ">
           <div class="first-text-left">
-          <h1 class="fw-bold">About Us</h1>
-          <p >
-            Your one-stop destination for high-performance laptops, tailored to
-            your needs. Our journey began with a vision to provide top-tier computing solutions to individuals, professionals, and businesses alike.
-          </p>
-          <button class="btn btn-primary ">Learn more</button>
-        </div>
-        
+            <h1 class="fw-bold">About Us</h1>
+            <p>
+              Your one-stop destination for high-performance laptops, tailored
+              to your needs. Our journey began with a vision to provide top-tier
+              computing solutions to individuals, professionals, and businesses
+              alike.
+            </p>
+            <button class="btn btn-primary ">Learn more</button>
           </div>
+        </div>
       </section>
 
       <section class="about-section">

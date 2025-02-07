@@ -2,7 +2,8 @@ body {
   background-color: #f9f9f9;
 }
 .hero-section {
-  background: url('/src/components/Assets/about_banner_page.png') no-repeat center center;
+  background: url("/src/components/Assets/about_banner.jpg") no-repeat center
+    center;
   background-size: cover;
   color: white;
   padding: 180px 15px;
@@ -15,20 +16,15 @@ body {
 .hero-section p {
   font-size: 1.25rem;
 }
-.first-text{
-  display: flex; 
-  font-size: 1rem;
-}
-.first-text-left{
-  width: 50%;
+
+.first-text-left > p {
+  font-size: 0.95rem;
+  font-weight: 350;
+  color: whitesmoke;
+ 
   
 }
-.first-text-left>p{
-  font-size: 1rem;
-  font-weight: 300;
-  color: aliceblue;
-}
-.first-text-left>button{
+.first-text-left > button {
   background-color: #0078d4;
   color: white;
   width: 130px;
@@ -37,15 +33,15 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
+
 .about-section {
   padding: 50px 15px;
 }
 .team-section img {
-  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .services-section {
-  background: #0078d4;
+  /* background: #0078d4; */
   color: white;
   padding: 50px 15px;
 }

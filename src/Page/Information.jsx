@@ -3,6 +3,8 @@ import Footer from '../components/Footer/Footer'
 import './css/Information.css'
 import laptop_asus from '../components/Assets/laptop-1.jpg'
 import top_brand from '../components/Assets/asus-logo.png'
+import { TbShieldStar } from "react-icons/tb";
+import { GiUpgrade } from "react-icons/gi";
 const Information = () => {
   return (
     <div className=''  data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
@@ -46,12 +48,14 @@ const Information = () => {
         <p class="">We partner with leading brands like Dell, HP, Lenovo, Asus, and more.</p>
       </div>
       <div class="col-md-4 text-center">
-        <img src="https://via.placeholder.com/100" alt="Customizations" class="mb-3"/>
+        {/* <img src="https://via.placeholder.com/100" alt="Customizations" class="mb-3"/> */}
+        <GiUpgrade class="icon-upgrade"/>
         <h4>Custom Upgrades</h4>
         <p class="">Customize your laptop with upgraded processors, memory, and storage options.</p>
       </div>
       <div class="col-md-4 text-center">
-        <img src="https://via.placeholder.com/100" alt="Warranty" class="mb-3" />
+        {/* <img src="https://via.placeholder.com/100" alt="Warranty" class="mb-3" /> */}
+        <TbShieldStar class="icon-warranty" />
         <h4>Warranty & Support</h4>
         <p class="">Every purchase is backed by warranties and reliable after-sales support.</p>
       </div>
