@@ -5,6 +5,7 @@ import service1 from "../Assets/service_1.png";
 import service2 from "../Assets/service_2.png";
 import service3 from "../Assets/service_3.png";
 import service4 from "../Assets/service_4.png";
+import Footer from "../Footer/Footer";
 const Service = () => {
   return (
     <div
@@ -152,8 +153,11 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
+    
   );
+
 };
 
 export default Service;

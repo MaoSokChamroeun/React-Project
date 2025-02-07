@@ -36,7 +36,9 @@
   .thumbnail-container img {
     width: 130px;
     height: 130px;
+    margin-top: 50px;
     object-fit: cover;
+    border: 1px solid white;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
   }
@@ -99,6 +101,12 @@
 } 
 
 .dark-mode .display-right{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 
+.dark-mode .thumbnail-container img{
   --base-color: #000000;
   --text-color: #ffffff;
   background-color: var(--base-color);

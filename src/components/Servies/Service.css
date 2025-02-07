@@ -3,6 +3,7 @@ body {
   font-family: 'Poppin', sans-serif;
 }
 .service-banner{
+  margin-top: 110px;
   background: url('../Assets/service_banner.webp') no-repeat center center;
   background-size: cover;
   color: white;
