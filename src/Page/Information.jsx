@@ -43,7 +43,7 @@ const Information = () => {
     </div>
     <div class="row mt-5">
       <div class="col-md-4 text-center">
-        <img src={top_brand} alt="Brands" class="mb-3"/>
+        <img src={top_brand} alt="Brands" class="mb-3" />
         <h4>Top Brands</h4>
         <p class="">We partner with leading brands like Dell, HP, Lenovo, Asus, and more.</p>
       </div>

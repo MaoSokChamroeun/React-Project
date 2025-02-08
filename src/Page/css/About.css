@@ -43,8 +43,30 @@ body {
 .services-section {
   /* background: #0078d4; */
   color: white;
+  background-color: gray;
   padding: 50px 15px;
 }
 .services-section h3 {
   font-weight: bold;
 }
+.dark-mode .about-section{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 
+
+.dark-mode .services-section{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 
+.dark-mode .team-section{
+  --base-color: #000000;
+  --text-color: #ffffff;
+  background-color: var(--base-color);
+  color: var(--text-color);
+} 
+
+

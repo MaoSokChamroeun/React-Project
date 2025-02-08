@@ -6,7 +6,7 @@ const ChooseMeno = () => {
           <div class="text-center row d-flex justify-content-center align-items-center main-cheakbox mx-auto">
                 <div class="dropdown p-2 col "> 
                   <button class="btn rounded-0 bg-white  dropdown-toggle d-flex justify-content-between align-items-center mx-4" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" >
-                    SERIES
+                    SERIES  
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <li class="dropdown-item">

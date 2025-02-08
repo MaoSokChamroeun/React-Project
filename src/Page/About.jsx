@@ -32,7 +32,7 @@ const About = () => {
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
               <h2 class="fw-bold">Who We Are</h2>
-              <p class="text-muted mt-3">
+              <p class=" mt-3">
                 At <strong>TechConnect Laptops</strong>, we pride ourselves on
                 being a trusted provider of top-quality laptops for students,
                 professionals, gamers, and more. With years of experience in the
@@ -45,21 +45,21 @@ const About = () => {
           <div class="row mt-5">
             <div class="col-md-4 text-center mt-3">
               <h3 class="fw-bold">Our Mission</h3>
-              <p class="text-muted">
+              <p class="">
                 To empower people by providing reliable, high-performance
                 laptops tailored to meet diverse needs.
               </p>
             </div>
             <div class="col-md-4 text-center shadow-lg">
               <h3 class="pt-3 fw-bold ">Our Vision</h3>
-              <p class="text-muted ">
+              <p class=" ">
                 To become the leading laptop seller by combining affordability,
                 innovation, and excellent service.
               </p>
             </div>
             <div class="col-md-4 text-center mt-3">
               <h3 class="fw-bold">Our Promise</h3>
-              <p class="text-muted">
+              <p class="">
                 Every product we sell is backed by our commitment to quality and
                 customer satisfaction.
               </p>
@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </section>
 
-      <section class="services-section bg-secondary">
+      <section class="services-section ">
         <div class="container">
           <div class="text-center mb-5 ">
             <h2 class="fw-bold">What We Offer</h2>
@@ -101,11 +101,11 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section class="team-section bg-light py-5">
+      <section class="team-section  py-5">
         <div class="container">
           <div class="text-center mb-5">
             <h2 class="fw-bold">Meet the Team</h2>
-            <p class="text-muted">
+            <p class="">
               Our dedicated team ensures you have a seamless shopping
               experience.
             </p>
@@ -114,17 +114,17 @@ const About = () => {
             <div class="col-md-4">
               <img src={chamrouen} alt="Team Member" class="img-fluid mb-3" />
               <h5>Mao Sokchamroeun</h5>
-              <p class="text-muted">Team Leader</p>
+              <p class="">Team Leader</p>
             </div>
             <div class="col-md-4">
               <img src={chanya} alt="Team Member" class="img-fluid mb-3" />
               <h5>Yeab Chanya</h5>
-              <p class="text-muted">Team</p>
+              <p class="">Team</p>
             </div>
             <div class="col-md-4">
               <img src={reach} alt="Team Member" class="img-fluid mb-3" />
               <h5>Mi Aknureach</h5>
-              <p class="text-muted">Team</p>
+              <p class="">Team</p>
             </div>
           </div>
         </div>

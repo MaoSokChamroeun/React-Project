@@ -270,6 +270,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
     
   );
