@@ -26,12 +26,12 @@ const ProductDisplayHeadphone = () => {
   return (
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" style={{margin: '110px'}}>
     <div className='product-display-asus' >
-    <div class="container py-5">
-    <div class="gallery-container mx-auto">
-      <div class="main-image-container mb-3">
-        <img id="mainImage" onClick={window.scrollTo(0,0)} src= {mainImage} alt="Main Display" class="img-fluid rounded" />
+    <div className="container py-5">
+    <div className="gallery-container mx-auto">
+      <div className="main-image-container mb-3">
+        <img id="mainImage" onClick={window.scrollTo(0,0)} src= {mainImage} alt="Main Display" className="img-fluid rounded" />
       </div>
-      <div class="thumbnail-container d-flex gap-4 mt-5">
+      <div className="thumbnail-container d-flex gap-4 mt-5">
       {images.map((image, i) => (
                 <img
                   key={i}

@@ -5,33 +5,33 @@ import './css/Contact.css'
 const Contact = () => {
   return (
     <div className=''>
-      <div class="container contact-container">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <div class="form-container">
-        <div class="form-header text-center mb-4">
+      <div className="container contact-container">
+  <div className="row justify-content-center">
+    <div className="col-lg-8">
+      <div className="form-container">
+        <div className="form-header text-center mb-4">
           <img src={logo} alt='' width={200} />
-          <p class="text-muted">We'd love to hear from you. Please fill out the form below.</p>
+          <p className="text-muted">We'd love to hear from you. Please fill out the form below.</p>
         </div>
         <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+          <div className="mb-3">
+            <label for="name" className="form-label">Your Name</label>
+            <input type="text" className="form-control" id="name" placeholder="Enter your name" required />
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+          <div className="mb-3">
+            <label for="email" className="form-label">Your Email</label>
+            <input type="email" className="form-control" id="email" placeholder="Enter your email" required />
           </div>
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required />
+          <div className="mb-3">
+            <label for="subject" className="form-label">Subject</label>
+            <input type="text" className="form-control" id="subject" placeholder="Enter the subject" required />
           </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          <div className="mb-3">
+            <label for="message" className="form-label">Your Message</label>
+            <textarea className="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
+          <div className="text-center">
+            <button type="submit" className="btn btn-danger btn-lg">Send Message</button>
           </div>
         </form>
       </div>

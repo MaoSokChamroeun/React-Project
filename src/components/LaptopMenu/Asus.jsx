@@ -51,7 +51,7 @@ const Asus = () => {
     <div className='product-container d-flex'> 
       <div className='choose-menu'>
       <h1 className='text-center fw-bold mt-5'>ASUS PRODUCT</h1>
-      <div class="container my-4">
+      <div className="container my-4">
         <AsusMenu />
     </div>
 

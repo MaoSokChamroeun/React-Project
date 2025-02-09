@@ -12,7 +12,7 @@ const ChooseMeno = () => {
                     <li className="dropdown-item">
                       <div className="form-check">
                         <input className="form-check-input" type="checkbox" value="" id="option1" />
-                        <label className="form-check-label" for="option1">
+                        <label className="form-check-label" htmlFor="option1">
                           ROG FLOW
                         </label>
                       </div>
@@ -20,7 +20,7 @@ const ChooseMeno = () => {
                     <li className="dropdown-item">
                       <div className="form-check">
                         <input className="form-check-input" type="checkbox" value="" id="option2"/>
-                        <label className="form-check-label" for="option2">
+                        <label className="form-check-label" htmlFor="option2">
                           ROG Zephyrus
                         </label>
                       </div>
@@ -28,7 +28,7 @@ const ChooseMeno = () => {
                     <li className="dropdown-item">
                       <div className="form-check">
                         <input className="form-check-input" type="checkbox" value="" id="option3"/>
-                        <label className="form-check-label" for="option3">
+                        <label className="form-check-label" htmlFor="option3">
                           ROG Strix
                         </label>
                       </div>
@@ -43,7 +43,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -51,7 +51,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -59,7 +59,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -74,7 +74,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -82,7 +82,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -90,7 +90,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -105,7 +105,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -113,7 +113,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -121,7 +121,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -136,7 +136,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -144,7 +144,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -152,7 +152,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -167,7 +167,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -175,7 +175,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -183,7 +183,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -198,7 +198,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1 " />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -206,7 +206,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -214,7 +214,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -229,7 +229,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -237,7 +237,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -245,7 +245,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -260,7 +260,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -268,7 +268,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -276,7 +276,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>
@@ -291,7 +291,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option1" />
-                          <label className="form-check-label" for="option1">
+                          <label className="form-check-label" htmlFor="option1">
                             Option 1
                           </label>
                         </div>
@@ -299,7 +299,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option2" />
-                          <label className="form-check-label" for="option2">
+                          <label className="form-check-label" htmlFor="option2">
                             Option 2
                           </label>
                         </div>
@@ -307,7 +307,7 @@ const ChooseMeno = () => {
                       <li className="dropdown-item">
                         <div className="form-check">
                           <input className="form-check-input" type="checkbox" value="" id="option3" />
-                          <label className="form-check-label" for="option3">
+                          <label className="form-check-label" htmlFor="option3">
                             Option 3
                           </label>
                         </div>

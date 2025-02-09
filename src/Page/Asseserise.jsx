@@ -10,84 +10,84 @@ import rog_charge from '../components/Assets/rog_charge.jpeg'
 const Asseserise = () => {
   return (
     <div className='' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-      <section class="asseserise-hero-section">
-  <div class="container">
+      <section className="asseserise-hero-section">
+  <div className="container">
     <h1>Top Laptop Accessories</h1>
     <p>Enhance your laptop experience with our wide range of accessories.</p>
   </div>
 </section>
 
 
-<section class="accessories-section py-5">
-  <div class="container">
-    <div class="text-center mb-5">
+<section className="accessories-section py-5">
+  <div className="container">
+    <div className="text-center mb-5">
       <h2>Laptop Accessories</h2>
-      <p class="">Browse through our collection of essential accessories for your laptop.</p>
+      <p className="">Browse through our collection of essential accessories for your laptop.</p>
     </div>
-    <div class="row">
+    <div className="row">
  
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src={rog_bag} alt="Laptop Bag" class="img-fluid mb-3"/>
+      <div className="col-md-4">
+        <div className="product-card">
+          <img src={rog_bag} alt="Laptop Bag" className="img-fluid mb-3"/>
           <h4>Laptop Bags</h4>
-          <p class="">Keep your laptop safe and stylish with our range of bags.</p>
+          <p className="">Keep your laptop safe and stylish with our range of bags.</p>
           <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
         </div>
       </div>
       
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src={rog_charge} alt="Laptop Charger" class="img-fluid mb-3"/>
+      <div className="col-md-4">
+        <div className="product-card">
+          <img src={rog_charge} alt="Laptop Charger" className="img-fluid mb-3"/>
           <h4>Laptop Chargers</h4>
-          <p class="">Never run out of battery with our reliable laptop chargers.</p>
+          <p className="">Never run out of battery with our reliable laptop chargers.</p>
           <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
         </div>
       </div>
   
-      <div class="col-md-4 mb-4">
-        <div class="product-card">
-          <img src={rog_mouse} alt="Laptop Mouse" class="img-fluid mb-3"/>
+      <div className="col-md-4 mb-4">
+        <div className="product-card">
+          <img src={rog_mouse} alt="Laptop Mouse" className="img-fluid mb-3"/>
           <h4>Laptop Mouse</h4>
-          <p class="">Browse our collection of precision mice for smooth navigation.</p>
+          <p className="">Browse our collection of precision mice for smooth navigation.</p>
            <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div className="row">
      
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src={tuf_keyboard} alt="Laptop Keyboard" class="img-fluid mb-3"/>
+      <div className="col-md-4">
+        <div className="product-card">
+          <img src={tuf_keyboard} alt="Laptop Keyboard" className="img-fluid mb-3"/>
           <h4>Laptop Keyboards</h4>
-          <p class="">Upgrade your typing experience with our durable laptop keyboards.</p>
+          <p className="">Upgrade your typing experience with our durable laptop keyboards.</p>
            <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
         </div>
       </div>
      
-      <div class="col-md-4 ">
-        <div class="product-card">
-          <img src={laptop_stand} alt="Laptop Stand" class="img-fluid mb-3"/>
+      <div className="col-md-4 ">
+        <div className="product-card">
+          <img src={laptop_stand} alt="Laptop Stand" className="img-fluid mb-3"/>
           <h4>Laptop Stands</h4>
-          <p class="">Improve ergonomics with adjustable laptop stands.</p>
+          <p className="">Improve ergonomics with adjustable laptop stands.</p>
            <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
         </div>
       </div>
      
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src={cooling_pend} alt="Cooling Pad" class="img-fluid mb-3"/>
+      <div className="col-md-4">
+        <div className="product-card">
+          <img src={cooling_pend} alt="Cooling Pad" className="img-fluid mb-3"/>
           <h4>Laptop Cooling Pads</h4>
-          <p class="">Prevent overheating and keep your laptop cool with cooling pads.</p>
+          <p className="">Prevent overheating and keep your laptop cool with cooling pads.</p>
            <button className='btn-detial'>
              <a href="/" className='text-white text-decoration-none'>View Details</a>
           </button>
@@ -98,10 +98,10 @@ const Asseserise = () => {
 </section>
 
 
-<section class="cta-section bg-dark">
-  <div class="container ">
+<section className="cta-section bg-dark">
+  <div className="container ">
     <h2>Shop Our Full Range of Accessories Today!</h2>
-    <p class="lead mt-3">
+    <p className="lead mt-3">
       Don't miss out on enhancing your laptop experience. Get the best accessories for your device.
     </p>
     <button className='btn-detial'>
