@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import logo from '../Assets/logo.png';
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import './Navigation.css'
+import { ShopContext } from '../Context/ShopContext';
 import DarkMode from '../DarkMode/DarkMode';
 const Navigation = () => {
+  const {getCountTotalItems} = useContext(ShopContext)
   const [menu , setMenu] = useState("/");
 
   return (
@@ -51,10 +53,13 @@ const Navigation = () => {
   <button  >
     <FaSearch style={{fontSize: '20px'}} className='search-icon'/>
   </button>
-  <Link to = '/cardshop'><button className='d-flex align-items-center'>
+  <Link to = '/cardtotal'><button className='d-flex align-items-center'>
     <FaShoppingCart style={{fontSize: '20px'} } className='shop-card '/>
   </button>
   </Link>
+  <div className='card-count'>
+          <p>{getCountTotalItems()}</p>
+        </div>
 </div>
       </div>
     </div>

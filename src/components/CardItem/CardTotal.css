@@ -3,17 +3,20 @@
 
 }
 .card-item hr{
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(0, 0, 0);
     height: 3px;
     border: 0;
+    width: 100%;
+    color: black;
 }
 .card-item-format-main{
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    z-index: 1;
     gap: 75px;
     padding: 20px 0;
-    color: #454545;
+    color: #000000;
     font-size: 18px;
     font-weight: 600;
 }
@@ -21,14 +24,18 @@
     font-size: 17px;
     font-weight: 500;
 }
-.card-icon-product-icon{
-    height: 62px;
-
-}
+.card-icon-product-icon {
+    display: block;
+    width: auto;
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
+  }
+  
 
 .card-item-remove-icon{
     cursor: pointer;
     width: 15px;
+    color: black;
     margin: 0 40px;
 
 }
@@ -56,11 +63,15 @@
     padding: 15px 0;
 
 }
+.card-item-total-item h3{
+    color: red;
+    font-weight: bold;
+}
 .card-item-total button{
     width: 262px;
     height: 58px;
     border: none;
-    background-color: #ff5a5a;
+    background-color: #000000;
     color: white;
     font-size: 16px;
     font-weight: 600;

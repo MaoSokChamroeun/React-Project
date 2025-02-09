@@ -26,6 +26,19 @@ hr{
     top: 0;
     background-color: white;
 }
+.card-count p{
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: -10px;
+  margin-left: -23px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: red;
+}
 .navbar-container ul li .list-text{
     color: black;
 }

@@ -24,7 +24,8 @@ import ProductDisplayTuf from './components/ProductDisplay/ProductDisplayTuf';
 import ProductDisplayMonitor from './components/ProductDisplay/ProductDisplayMonitor';
 import ProductDisplayKeyboard from './components/ProductDisplay/ProductDisplayKeyboard';
 import ProductDisplayHeadphone from './components/ProductDisplay/ProductDisplayHeadphone';
-// import Product from './Page/Product';
+import CardTotal from './components/CardItem/CardTotal';
+import ShopContextProvider from './components/Context/ShopContext';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
@@ -37,6 +38,7 @@ function App() {
   return (
 
     <div className="App">
+    <ShopContextProvider>
      <BrowserRouter >
      <Navigation />
 
@@ -47,11 +49,11 @@ function App() {
         <Route path='/laptop' element = {<Laptop/>}/>
         <Route path='/monitor' element = {<Monitor/>}/>
         <Route path='/information' element = {<Information />} />
-        
+        {/* <Route path="/cardtotal" element={<CardTotal />} /> */}
         <Route path='/asseserise' element = {<Asseserise />}/>
-        <Route path='/cardshop' element = {<CardShop />} />
+        <Route path='/cardshop' element = {<CardTotal />} />
         <Route path='/service' element = {<Service />} />
-
+        <Route path='/cardtotal' element = {<CardTotal />} />
         <Route path='/asus' element = {<Asus />}/>
        
         <Route path='/msi' element = {<Mis />}/>
@@ -83,7 +85,7 @@ function App() {
         </Route>
         </Routes>
       </BrowserRouter>
-     
+      </ShopContextProvider>
     </div>
   );
 }

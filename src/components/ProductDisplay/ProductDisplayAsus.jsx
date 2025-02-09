@@ -1,23 +1,22 @@
 import React, { useContext } from 'react'
 import asus_product from '../Assets/asus_product'
+import { ShopContext } from '../Context/ShopContext'
 import { useParams } from 'react-router-dom'
 import './ProductDisplayCss/ProductDisplay.css'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 import HotProduct from '../HotProduct/HotProduct'
 import { useState } from 'react'
-const ProductDisplayAsus = () => {
-    const {asusID} = useParams();
-    const asusProduct = asus_product.find((e) => e.asus_id === Number(asusID));
-
-     const [mainImage , setMainImage] = useState(asusProduct.asus_image);
-        const images = [
+const ProductDisplayAsus = (props) => {
+  const { addToCard } = useContext(ShopContext);  // Destructure addToCard from ShopContext
+  const { asusID } = useParams();  // Get asusID from URL
+  const asusProduct = asus_product.find((e) => e.asus_id === Number(asusID)); 
+  const [mainImage , setMainImage] = useState(asusProduct.asus_image);
+  const images = [
             asusProduct.asus_image,
             asusProduct.asus_detail_2,
             asusProduct.asus_detail_3,
             asusProduct.asus_detail_4,
-          
-            
           ];
           const changeImage = (src) => {
             if (src) setMainImage(src);
@@ -69,7 +68,10 @@ const ProductDisplayAsus = () => {
             ${asusProduct.old_price}
             </span></p> 
             </div>
-            <button className='add-card'>ADD TO CARD</button>
+            <button className="add-card" onClick={() => addToCard(asusProduct.asus_id)}>
+            ADD TO CART
+          </button>
+
     </div>
    
     </div>

@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import HotProduct from "../HotProduct/HotProduct";
 const ProductDisplayMsi = () => {
     const {msiID} = useParams()
+    const { addToCard} = useContext(ShopContext)
    const msiProduct = msi_product.find((e) => e.msi_id === Number(msiID));
    const [msiMain , setMsiMain] = useState(msiProduct.msi_image);
    
@@ -64,7 +65,7 @@ const ProductDisplayMsi = () => {
             ${msiProduct.old_price}
             </span></p> 
             </div>
-            <button className='add-card'>ADD TO CARD</button>
+            <button className='add-card' onClick={() => addToCard(msiProduct.msi_id)}>ADD TO CARD</button>
     </div>
    
     </div>

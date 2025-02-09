@@ -35,7 +35,7 @@ import msi_detail_4 from './msi_detail_4.jpg'
 
 let msi_product =[
     {
-        msi_id: 1,
+        msi_id: 30,
         msi_image: msi_1,
         msi_name: 'MSI Katana 15',
         new_price : 899,
@@ -48,7 +48,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 2,
+        msi_id: 31,
         msi_image: msi_2,
         msi_name: 'Stealth 18 AI Studio A1V',
         new_price : 899,
