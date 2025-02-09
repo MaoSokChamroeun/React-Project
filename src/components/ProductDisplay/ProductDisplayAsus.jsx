@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 import HotProduct from '../HotProduct/HotProduct'
 import { useState } from 'react'
-const ProductDisplayAsus = (props) => {
+const ProductDisplayAsus = () => {
   const { addToCard } = useContext(ShopContext);  // Destructure addToCard from ShopContext
   const { asusID } = useParams();  // Get asusID from URL
   const asusProduct = asus_product.find((e) => e.asus_id === Number(asusID)); 

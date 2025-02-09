@@ -19,105 +19,139 @@ import headphone_17 from './headphone_17.png'
 
 let headphone_product =[
     {
-        headphone_id : 1,
+        headphone_id : 76,
         headphone_image : headphone_1,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 2,
+        headphone_id : 77,
         headphone_image : headphone_2,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 3,
+        headphone_id : 78,
         headphone_image : headphone_3,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 4,
+        headphone_id : 79,
         headphone_image : headphone_4,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 5,
+        headphone_id : 80,
         headphone_image : headphone_5,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 6,
+        headphone_id : 81,
         headphone_image : headphone_6,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 7,
+        headphone_id : 82,
         headphone_image : headphone_7,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 8,
+        headphone_id : 83,
         headphone_image : headphone_8,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 9,
+        headphone_id : 84,
         headphone_image : headphone_9,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 10,
+        headphone_id : 85,
         headphone_image : headphone_10,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 11,
+        headphone_id : 86,
         headphone_image : headphone_11,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 12,
+        headphone_id : 87,
         headphone_image : headphone_12,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 13,
+        headphone_id : 88,
         headphone_image : headphone_13,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 14,
+        headphone_id : 89,
         headphone_image : headphone_14,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
  
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 15,
+        headphone_id : 90,
         headphone_image : headphone_15,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 16,
+        headphone_id : 91,
         headphone_image : headphone_16,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },
     {
-        headphone_id : 17,
+        headphone_id : 92,
         headphone_image : headphone_17,
+        new_price : 400,
+        old_price : 766,
         headphone_name : 'Beats Solo 3 Wireless Headphones',
         headphone_description: 'Headset Gaming Logitech G435 Ultra-light Wireless Bluetooth Headset -BLUE- APANZ-122(981-001063)2Y'
     },

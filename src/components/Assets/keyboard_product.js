@@ -43,105 +43,126 @@ import keyboard_back_20 from './keyboard_back_20.png'
 
 let keyboard_product =[
     {
-        keyboard_id : 1,
-        keyboard_name : 'ROG Strix Scope II 96 RX Wireless',
+        keyboard_id : 93,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Strix Scope II 96 RX Wireless',
         keyboard_front_image : keyboard_front_1,
         keyboard_back_image : keyboard_back_1,
         keyboard_description : 'ROG Strix Scope II 96 RX Wireless optical gaming keyboard with tri-mode connection, streaming hotkeys, multi-function controls, ROG RX Optical Switches, ROG keyboard stabilizers, PBT doubleshot keycaps, silicone dampening foam, additional ROG-themed ABS keycaps, three tilt angles, and wrist rest.'
     },
     {
-        keyboard_id : 2,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 94,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_2,
         keyboard_back_image : keyboard_back_2,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 3,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 95,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_3,
         keyboard_back_image : keyboard_back_3,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 4,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 96,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_4,
         keyboard_back_image : keyboard_back_4,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 5,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 97,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_5,
         keyboard_back_image : keyboard_back_5,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 6,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 98,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_6,
         keyboard_back_image : keyboard_back_6,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 7,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 99,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_7,
         keyboard_back_image : keyboard_back_7,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 8,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 100,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_8,
         keyboard_back_image : keyboard_back_8,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 9,
-        keyboard_name : 'ROG Falchion Ace HFX',
+        keyboard_id : 101,
+        new_price : 349,
+        old_price : 500,        keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_9,
         keyboard_back_image : keyboard_back_9,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 10,
+        keyboard_id : 102,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_10,
         keyboard_back_image : keyboard_back_10,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 11,
+        keyboard_id : 103,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_11,
         keyboard_back_image : keyboard_back_11,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 12,
+        keyboard_id : 104,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_12,
         keyboard_back_image : keyboard_back_12,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 13,
+        keyboard_id : 105,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_13,
         keyboard_back_image : keyboard_back_13,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 14,
+        keyboard_id : 106,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_14,
         keyboard_back_image : keyboard_back_14,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 15,
+        keyboard_id : 107,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_15,
         keyboard_back_image : keyboard_back_15,
@@ -149,28 +170,36 @@ let keyboard_product =[
     },
    
     {
-        keyboard_id : 17,
+        keyboard_id : 108,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_17,
         keyboard_back_image : keyboard_back_17,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 18,
+        keyboard_id : 109,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_18,
         keyboard_back_image : keyboard_back_18,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 19,
+        keyboard_id : 110,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_19,
         keyboard_back_image : keyboard_back_19,
         keyboard_description : 'ROG Falchion Ace HFX 65% analog gaming keyboard with pre-lubed ROG HFX Magnetic Switches, Rapid Trigger toggle, Speed Tap Mode, interactive touch panel, 8000 Hz polling rate, five-layer dampening and silicone gasket mount, dual Type-C ports, three tilt angles, and cover case'
     },
     {
-        keyboard_id : 20,
+        keyboard_id : 111,
+        new_price : 349,
+        old_price : 500,
         keyboard_name : 'ROG Falchion Ace HFX',
         keyboard_front_image : keyboard_front_20,
         keyboard_back_image : keyboard_back_20,

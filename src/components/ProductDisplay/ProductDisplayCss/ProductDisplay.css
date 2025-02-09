@@ -12,7 +12,6 @@
 }
 .gallery-container {
     width: 100%;
-    padding: 20px;
     height: 70vh;
    
   }
@@ -26,7 +25,7 @@
   }
 
   .main-image-container img {
-    width: 80%;
+    width: 60%;
     height: 100%;
     display: flex;
     margin: auto;
@@ -72,6 +71,7 @@
 }
 .display-right p{
     font-size: 18px; 
+    width: 600px;
 }
 .display-right .new-price span{
     color: red;

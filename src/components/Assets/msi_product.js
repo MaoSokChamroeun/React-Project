@@ -35,7 +35,7 @@ import msi_detail_4 from './msi_detail_4.jpg'
 
 let msi_product =[
     {
-        msi_id: 30,
+        msi_id: 28,
         msi_image: msi_1,
         msi_name: 'MSI Katana 15',
         new_price : 899,
@@ -48,7 +48,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 31,
+        msi_id: 29,
         msi_image: msi_2,
         msi_name: 'Stealth 18 AI Studio A1V',
         new_price : 899,
@@ -61,7 +61,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 3,
+        msi_id: 30,
         msi_image: msi_3,
         msi_name: 'Stealth 18 Mercedes-AMG Motorsport',
         new_price : 899,
@@ -74,7 +74,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 4,
+        msi_id: 31,
         msi_image: msi_4,
         msi_name: 'Stealth 16 AI Studio A1V',
         new_price : 899,
@@ -87,7 +87,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 5,
+        msi_id: 32,
         msi_image: msi_5,
         msi_name: 'Stealth 14 AI Studio A1V',
         new_price : 899,
@@ -100,7 +100,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 6,
+        msi_id: 33,
         msi_image: msi_6,
         msi_name: 'Pulse 16 AI C1V',
         new_price : 899,
@@ -113,7 +113,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 7,
+        msi_id: 34,
         msi_image: msi_7,
         msi_name: 'Pulse 17 AI C1V',
         new_price : 899,
@@ -126,7 +126,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 8,
+        msi_id: 35,
         msi_image: msi_8,
         msi_name: 'Vector 17 HX A14V',
         new_price : 899,
@@ -139,7 +139,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 9,
+        msi_id: 36,
         msi_image: msi_9,
         msi_name: 'Vector 16 HX A14V',
         new_price : 899,
@@ -152,7 +152,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 10,
+        msi_id: 37,
         msi_image: msi_10,
         msi_name: 'Sword 16 HX B14V',
         new_price : 899,
@@ -165,7 +165,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 11,
+        msi_id: 38,
         msi_image: msi_11,
         msi_name: 'Vector 17 HX A13V',
         new_price : 899,
@@ -178,7 +178,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 12,
+        msi_id: 39,
         msi_image: msi_12,
         msi_name: 'Crosshair 16 HX D14V',
         new_price : 899,
@@ -191,7 +191,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 13,
+        msi_id: 40,
         msi_image: msi_13,
         msi_name: 'Crosshair 16 HX MONSTER HUNTER EDITION D14V',
         new_price : 899,
@@ -204,7 +204,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 14,
+        msi_id: 41,
         msi_image: msi_14,
         msi_name: 'Crosshair 17 HX D14V',
         new_price : 899,
@@ -217,7 +217,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 15,
+        msi_id: 42,
         msi_image: msi_15,
         msi_name: 'Crosshair 17 HX D14V',
         new_price : 899,
@@ -230,7 +230,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 16,
+        msi_id: 43,
         msi_image: msi_16,
         msi_name: 'Raider GE78 HX 14V',
         new_price : 899,
@@ -243,7 +243,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 17,
+        msi_id: 44,
         msi_image: msi_17,
         msi_name: 'Sword 17 HX B13V',
         new_price : 899,
@@ -256,7 +256,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 18,
+        msi_id: 45,
         msi_image: msi_18,
         msi_name: 'Katana 17 B13V',
         new_price : 899,
@@ -269,7 +269,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 19,
+        msi_id: 46,
         msi_image: msi_19,
         msi_name: 'Katana 15 B13V',
         new_price : 899,
@@ -282,7 +282,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 20,
+        msi_id: 47,
         msi_image: msi_20,
         msi_name: 'Katana 15 B12V',
         new_price : 899,
@@ -295,7 +295,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 21,
+        msi_id: 48,
         msi_image: msi_21,
         msi_name: 'Thin A15 AI B8V',
         new_price : 899,
@@ -308,7 +308,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 22,
+        msi_id: 49,
         msi_image: msi_22,
         msi_name: 'Titan 18 HX A14V',
         new_price : 899,
@@ -321,7 +321,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 23,
+        msi_id: 50,
         msi_image: msi_23,
         msi_name: 'Titan 18 HX A14V',
         new_price : 899,
@@ -334,7 +334,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 24,
+        msi_id: 51,
         msi_image: msi_24,
         msi_name: 'Cyborg 15 A12U',
         new_price : 899,
@@ -347,7 +347,7 @@ let msi_product =[
         msi_description: '(12th Gen Intel® Core™ processor / GeForce RTX™ 30 Series)',
     },
     {
-        msi_id: 25,
+        msi_id: 52,
         msi_image: msi_25,
         msi_name: 'Thin A15 AI B8V',
         new_price : 899,
@@ -360,7 +360,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 26,
+        msi_id: 53,
         msi_image: msi_26,
         msi_name: 'Cyborg 15 A13U',
         new_price : 899,
@@ -373,7 +373,7 @@ let msi_product =[
         msi_description: 'Intel® Core™ processor (14th gen) / GeForce RTX™ 40 Series',
     },
     {
-        msi_id: 27,
+        msi_id: 54,
         msi_image: msi_27,
         msi_name: 'Creator M14 A13V',
         new_price : 899,
@@ -386,7 +386,7 @@ let msi_product =[
         msi_description: '(Intel® Core™ processor (13th gen) / GeForce RTX™ 40 Series)',
     },
     {
-        msi_id: 28,
+        msi_id: 55,
         msi_image: msi_28,
         msi_name: 'CreatorPro X18 HX - A14V',
         new_price : 899,
@@ -399,7 +399,7 @@ let msi_product =[
         msi_description: '(Intel® Core™ processor (14th gen) / NVIDIA RTX™ Ada Series)',
     },
     {
-        msi_id: 29,
+        msi_id: 56,
         msi_image: msi_29,
         msi_detail_1: msi_detail_1,
         msi_detail_2: msi_detail_2,

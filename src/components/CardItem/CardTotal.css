@@ -11,11 +11,12 @@
 }
 .card-item-format-main{
     display: grid;
+    border: 1px solid white;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
     z-index: 1;
     gap: 75px;
-    padding: 20px 0;
+    padding: 20px 10px;
     color: #000000;
     font-size: 18px;
     font-weight: 600;
@@ -42,11 +43,14 @@
 .card-item-quantity{
     width: 64px;
     height: 50px;
-    border: 2px solid #ffffff;
+    color: black;
+   
 }
 
 .card-item-down{
     display: flex;
+    padding: 20px;
+    border: 1px solid white;
     margin: 100px 0px;
 }
 .card-item-total{
@@ -59,8 +63,9 @@
 
 .card-item-total-item{
     display: flex;
+    border: 1px solid white;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 15px 15px;
 
 }
 .card-item-total-item h3{
@@ -85,7 +90,7 @@
 
 }
 .card-item-promocode p{
-    color: #454545;
+    color: #000000;
 }
 .card-item-promo-box{
     width: 504px;
@@ -95,7 +100,10 @@
 }
 .card-item-promo-box input{
     border: none;
+
     outline: none;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
     background: transparent;
     font-size: 16px;
     width: 330px;
@@ -103,9 +111,58 @@
 }
 .card-item-promo-box button{
     width: 170px;
-    height: 58px;
+    border: 1px solid white;
+    height: 50px;
     font-size: 16px;
+    margin-left: 1px;
     background: black;
     cursor: pointer;
     color: white;
 }
+
+
+.dark-mode .card-item-format-main{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  
+  .dark-mode .card-item-quantity{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .card-item hr{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+ 
+  .dark-mode .card-item-down{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .card-item-promocode p{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+
+  .dark-mode .card-item-promo-box{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 
+  .dark-mode .card-item-promo-box input{
+    --base-color: #000000;
+    --text-color: #ffffff;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  } 

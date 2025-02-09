@@ -366,7 +366,7 @@ let all_product = [
     },
     {
         id: 28,
-        name: 'Titan 18 HX A14V',
+        name: 'MSI Katana 15',
         category: 'msi',
         image : msi_28,
         new_price: 1109,
@@ -374,7 +374,7 @@ let all_product = [
     },
     {
         id: 29,
-        name: 'Titan 18 HX A14V',
+        name: 'Stealth 18 AI Studio A1V',
         category: 'msi',
         image : msi_29,
         new_price: 1109,
@@ -382,7 +382,7 @@ let all_product = [
     },
     {
         id: 30,
-        name: 'Titan 18 HX A14V',
+        name: 'Stealth 18 Mercedes-AMG Motorsport',
         category: 'msi',
         image : msi_30,
         new_price: 1109,
@@ -390,7 +390,7 @@ let all_product = [
     },
     {
         id: 31,
-        name: 'Titan 18 HX A14V',
+        name: 'Stealth 16 AI Studio A1V',
         category: 'msi',
         image : msi_31,
         new_price: 1109,
@@ -398,7 +398,7 @@ let all_product = [
     },
     {
         id: 32,
-        name: 'Titan 18 HX A14V',
+        name: 'Stealth 14 AI Studio A1V',
         category: 'msi',
         image : msi_32,
         new_price: 1109,
@@ -406,7 +406,7 @@ let all_product = [
     },
     {
         id: 33,
-        name: 'Titan 18 HX A14V',
+        name: 'Pulse 16 AI C1V',
         category: 'msi',
         image : msi_33,
         new_price: 1109,
@@ -414,7 +414,7 @@ let all_product = [
     },
     {
         id: 34,
-        name: 'Titan 18 HX A14V',
+        name: 'Pulse 17 AI C1V',
         category: 'msi',
         image : msi_34,
         new_price: 1109,
@@ -422,7 +422,7 @@ let all_product = [
     },
     {
         id: 35,
-        name: 'Titan 18 HX A14V',
+        name: 'Vector 17 HX A14V',
         category: 'msi',
         image : msi_35,
         new_price: 1109,
@@ -430,7 +430,7 @@ let all_product = [
     },
     {
         id: 36,
-        name: 'Titan 18 HX A14V',
+        name: 'Vector 16 HX A14V',
         category: 'msi',
         image : msi_36,
         new_price: 1109,
@@ -438,7 +438,7 @@ let all_product = [
     },
     {
         id: 37,
-        name: 'Titan 18 HX A14V',
+        name: 'Sword 16 HX B14V',
         category: 'msi',
         image : msi_37,
         new_price: 1109,
@@ -446,7 +446,7 @@ let all_product = [
     },
     {
         id: 38,
-        name: 'Titan 18 HX A14V',
+        name: 'Vector 17 HX A13V',
         category: 'msi',
         image : msi_38,
         new_price: 1109,
@@ -454,7 +454,7 @@ let all_product = [
     },
     {
         id: 39,
-        name: 'Titan 18 HX A14V',
+        name: 'Crosshair 16 HX D14V',
         category: 'msi',
         image : msi_39,
         new_price: 1109,
@@ -462,7 +462,7 @@ let all_product = [
     },
     {
         id: 40,
-        name: 'Titan 18 HX A14V',
+        name: 'Crosshair 16 HX MONSTER HUNTER EDITION D14V',
         category: 'msi',
         image : msi_40,
         new_price: 1109,
@@ -470,7 +470,7 @@ let all_product = [
     },
     {
         id: 41,
-        name: 'Titan 18 HX A14V',
+        name: 'Crosshair 17 HX D14V',
         category: 'msi',
         image : msi_41,
         new_price: 1109,
@@ -478,7 +478,7 @@ let all_product = [
     },
     {
         id: 42,
-        name: 'Titan 18 HX A14V',
+        name: 'Crosshair 17 HX D14V',
         category: 'msi',
         image : msi_42,
         new_price: 1109,
@@ -486,7 +486,7 @@ let all_product = [
     },
     {
         id: 43,
-        name: 'Titan 18 HX A14V',
+        name: 'Raider GE78 HX 14V',
         category: 'msi',
         image : msi_43,
         new_price: 1109,
@@ -494,7 +494,7 @@ let all_product = [
     },
     {
         id: 44,
-        name: 'Titan 18 HX A14V',
+        name: 'Sword 17 HX B13V',
         category: 'msi',
         image : msi_44,
         new_price: 1109,
@@ -502,7 +502,7 @@ let all_product = [
     },
     {
         id: 45,
-        name: 'Titan 18 HX A14V',
+        name: 'Katana 17 B13V',
         category: 'msi',
         image : msi_45,
         new_price: 1109,
@@ -510,7 +510,7 @@ let all_product = [
     },
     {
         id: 46,
-        name: 'Titan 18 HX A14V',
+        name: 'Katana 15 B13V',
         category: 'msi',
         image : msi_46,
         new_price: 1109,
@@ -518,7 +518,7 @@ let all_product = [
     },
     {
         id: 47,
-        name: 'Titan 18 HX A14V',
+        name: 'Katana 15 B12V',
         category: 'msi',
         image : msi_47,
         new_price: 1109,
@@ -526,7 +526,7 @@ let all_product = [
     },
     {
         id: 48,
-        name: 'Titan 18 HX A14V',
+        name: 'Thin A15 AI B8V',
         category: 'msi',
         image : msi_48,
         new_price: 1109,
@@ -550,7 +550,7 @@ let all_product = [
     },
     {
         id: 51,
-        name: 'Titan 18 HX A14V',
+        name: 'Cyborg 15 A12U',
         category: 'msi',
         image : msi_51,
         new_price: 1109,
@@ -558,7 +558,7 @@ let all_product = [
     },
     {
         id: 52,
-        name: 'Titan 18 HX A14V',
+        name: 'Thin A15 AI B8V',
         category: 'msi',
         image : msi_52,
         new_price: 1109,
@@ -566,7 +566,7 @@ let all_product = [
     },
     {
         id: 53,
-        name: 'Titan 18 HX A14V',
+        name: 'Cyborg 15 A13U',
         category: 'msi',
         image : msi_53,
         new_price: 1109,
@@ -574,7 +574,7 @@ let all_product = [
     },
     {
         id: 54,
-        name: 'Titan 18 HX A14V',
+        name: 'Creator M14 A13V',
         category: 'msi',
         image : msi_54,
         new_price: 1109,
@@ -582,19 +582,19 @@ let all_product = [
     },
     {
         id: 55,
-        name: 'Titan 18 HX A14V',
+        name: 'CreatorPro X18 HX - A14V',
         category: 'msi',
         image : msi_55,
-        new_price: 1109,
-        old_price: 889,
+        new_price: 889,
+        old_price: 949,
     },
     {
         id: 56,
         name: 'Titan 18 HX A14V',
         category: 'msi',
         image : msi_56,
-        new_price: 1109,
-        old_price: 889,
+        new_price: 899,
+        old_price: 1049,
     },
     {
         id: 57,
@@ -1284,6 +1284,7 @@ let all_product = [
         new_price: 109,
         old_price: 85,
     },
+  
   
 ]
 
