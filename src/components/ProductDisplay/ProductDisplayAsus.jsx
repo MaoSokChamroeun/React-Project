@@ -41,10 +41,11 @@ const ProductDisplayAsus = () => {
                   alt={`Thumbnail ${i + 1}`}
                   className="img-thumbnail"
                   onClick={() => changeImage(image)}
-                 
+
                 />
               ))}
-         
+
+
       </div>
     </div>
   </div>

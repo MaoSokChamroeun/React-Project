@@ -12,11 +12,7 @@ import { TbClockUp } from "react-icons/tb";
 
 const Service = () => {
   return (
-    <div
-      className="servies"
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-    >
+    <div className="servies"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <section id="services">
         <div className="service-banner">
           <div className="text-center text-banner">

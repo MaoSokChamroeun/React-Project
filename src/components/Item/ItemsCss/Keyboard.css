@@ -14,16 +14,19 @@
 
 .image-hover {
     opacity: 0;
+    transition: 0.3s linear;
 }
 
 .keyboard-container:hover .image-hover {
     opacity: 1;
+    transition: 0.3s linear;
     cursor: pointer;
 }
 
 .keyboard-container:hover .image-default {
     opacity: 0;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 .text-keyboard{
     padding: 10px;

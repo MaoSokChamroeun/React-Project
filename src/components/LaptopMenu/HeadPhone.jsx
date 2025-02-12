@@ -13,7 +13,7 @@ const HeadPhone = () => {
       <div className='breadcrump'>
         <Breadcrump />
       </div>
-        <section className="container-fluid ">
+        <section className="container-fluid  ">
           <div className="banner d-flex justify-content-center" style={{margin: '10px'}}>
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
