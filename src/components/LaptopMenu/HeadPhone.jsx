@@ -5,12 +5,16 @@ import Footer from '../Footer/Footer'
 import headphone_banner_1 from '../Assets/headphone_banner_1.webp'
 import DetailLogo from '../DetialLogo/DetailLogo'
 import HeadPhoneMenu from './HeadPhoneMenu'
-
+import './Css/Headphone.css'
+import Breadcrump from '../Breadcrump/Breadcrump'
 const HeadPhone = () => {
   return (
     <div className='headphone'  data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-              <section className="container-fluid ">
-          <div className="banner d-flex justify-content-center" style={{margin: '110px'}}>
+      <div className='breadcrump'>
+        <Breadcrump />
+      </div>
+        <section className="container-fluid ">
+          <div className="banner d-flex justify-content-center" style={{margin: '10px'}}>
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>

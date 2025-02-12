@@ -7,11 +7,7 @@ import reach from "../components/Assets/reach.JPG";
 
 const About = () => {
   return (
-    <div
-      className="bg-dark-subtle"
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-    >
+    <div className="bg-dark-subtle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <section className="hero-section text-md-start ">
         <div className="container first-text ">
           <div className="first-text-left">

@@ -160,19 +160,19 @@ const Service = () => {
 
       {/* Service Process */}
       <div className="service-process mt-5">
-        <div className="container">
+        <div className="all-icon-service">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-12">
               <div className="full">
-                <div className=" text-md-start">
+                <div className="container">
                   <h2>Service process</h2>
                   <h5 className="letter mt-3">
                     Easy and effective way to get your device repaired.
                   </h5>
-                </div>
-                <div className="d-flex justify-content-start align-items-start">
+                  <div className="d-flex justify-content-start align-items-start">
                   <div className="main-line"></div>
                 </div>
+
 
                 <div class="container mt-5 ">
                   <div class="row">
@@ -233,19 +233,21 @@ const Service = () => {
                         </div>
                         <h5 class="mt-3">Affordable Pricing</h5>
                         <p>Quality service at the best price.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                      </div> 
+                   </div>
 
-                
-              </div>
+
+                   </div>
             </div>
           </div>
         </div>
       </div>
+      </div>
+      </div>
+      </div>
       <Footer />
     </div>
+
   );
 };
 

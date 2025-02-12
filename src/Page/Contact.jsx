@@ -4,7 +4,7 @@ import logo from '../components/Assets/logo.png'
 import './css/Contact.css'
 const Contact = () => {
   return (
-    <div className=''>
+    <div className='' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className="container contact-container">
   <div className="row justify-content-center">
     <div className="col-lg-8">

@@ -8,22 +8,20 @@ import HotProduct from "../HotProduct/HotProduct";
 const ProductDisplayMsi = () => {
     const {msiID} = useParams()
     const { addToCard} = useContext(ShopContext)
-   const msiProduct = msi_product.find((e) => e.msi_id === Number(msiID));
-   const [msiMain , setMsiMain] = useState(msiProduct.msi_image);
-   
-   const msiImages = [
+    const msiProduct = msi_product.find((e) => e.msi_id === Number(msiID));
+    const [msiMain , setMsiMain] = useState(msiProduct.msi_image);
+    const msiImages = [
     msiProduct.msi_image,
     msiProduct.msi_detail_2,
     msiProduct.msi_detail_3,
     msiProduct.msi_detail_4,
-   ]
-
-   const changeImage = (src) => {
+    ]
+    const changeImage = (src) => {
     if (src) setMsiMain(src);
   };
-   if(!msiProduct){
+    if(!msiProduct){
     return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>
-   }
+    }
   return (
     <div style={{margin: '110px'}}>
     <div className='product-display-asus'>
@@ -40,10 +38,10 @@ const ProductDisplayMsi = () => {
                   alt={`Thumbnail ${i + 1}`}
                   className="img-thumbnail"
                   onClick={() => changeImage(image)}
-                 
+                  
                 />
               ))}
-         
+                
       </div>
     </div>
   </div>
@@ -54,7 +52,6 @@ const ProductDisplayMsi = () => {
             <p> {msiProduct.msi_display} </p>
             
       </div>
-       
             <div className='about-price'>
             <p className='new-price'> 
               <span>
@@ -67,7 +64,6 @@ const ProductDisplayMsi = () => {
             </div>
             <button className='add-card' onClick={() => addToCard(msiProduct.msi_id)}>ADD TO CARD</button>
     </div>
-   
     </div>
 
     <HotProduct />

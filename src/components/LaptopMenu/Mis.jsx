@@ -19,11 +19,18 @@ import Footer from '../Footer/Footer'
 import DetailLogo from '../DetialLogo/DetailLogo'
 import { Link, Outlet } from 'react-router-dom'
 import './Css/Msi.css'
+import Breadcrump from '../Breadcrump/Breadcrump'
 const Mis = () => {
   return (
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='msi-container'>
+      <div className='breadcrump'>
+      <Breadcrump/>
+      </div>
+   
         <section className="container-fluid " >
-          <div className="banner d-flex justify-content-center" style={{margin: '110px'}}>
+        
+          <div className="banner d-flex justify-content-center" style={{margin: '10px'}}>
+            
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>

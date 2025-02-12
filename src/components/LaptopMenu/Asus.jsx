@@ -10,10 +10,12 @@ import Footer from '../Footer/Footer'
 import './Css/Asus.css'
 import DetailLogo from '../DetialLogo/DetailLogo'
 import AsusMenu from './AsusMenu';
+import Breadcrump from '../Breadcrump/Breadcrump';
 const Asus = () => {
 
   return (
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='asus-container'>
+      <Breadcrump/>
          <section className="container-fluid  ">
           <div className="banner d-flex justify-content-center">
               <div id="demo" className="carousel slide" data-bs-ride="carousel">

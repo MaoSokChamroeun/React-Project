@@ -2,6 +2,7 @@ import React from 'react'
 import banner_1 from '../Assets/banner-1.jpg'
 import banner_2 from '../Assets/banner-2.jpg'
 import banner_3 from '../Assets/banner-3.webp'
+import { useEffect } from 'react'
 import './Hero.css'
 const Hero = () => {
   return (
@@ -16,13 +17,13 @@ const Hero = () => {
                   </div>        
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={banner_1} alt="" className="d-block w-100" />
+                    <img  src={banner_2} alt="" className="d-block w-100" />
                   </div>
                   <div className="carousel-item">
-                    <img src={banner_2} alt="" className="d-block w-100" />
+                    <img   src={banner_3} alt="" className="d-block w-100" />
                   </div>
                   <div className="carousel-item">
-                    <img src={banner_3} alt="" className="d-block w-100" />
+                    <img   src={banner_1} alt="" className="d-block w-100" />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">

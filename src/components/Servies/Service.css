@@ -73,11 +73,17 @@ body {
   width: 100px;
 }
 
-.all-icon-service-process {
+
+/* .all-icon-service-process{
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-}
+  background-color: rgb(26, 248, 19);
+  margin: auto;
+  width: 90%;
+  
+  
+} */
+
+
 .icon-service-process {
   width: 100px;
   height: 100px;
@@ -88,4 +94,5 @@ body {
   font-weight: 300;
   font-size: 15px;
   width: 120%;
+
 }

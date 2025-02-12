@@ -4,10 +4,16 @@ import Footer from '../Footer/Footer'
 import MonitorItmes from '../Item/MonitorItems'
 import DetailLogo from '../DetialLogo/DetailLogo'
 import monitor_banner from '../Assets/monitor_banner_1.jpg'
+import Breadcrump from '../Breadcrump/Breadcrump'
+import './Css/Monitor.css'
 const MonitorProduct = () => {
   return (
     <div className='monitor' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
-        <div id="demo" className="carousel slide" data-bs-ride="carousel" style={{margin: '110px'}}>
+      <div className='breadcrump'>
+      <Breadcrump />
+      </div>
+      
+        <div id="demo" className="carousel slide" data-bs-ride="carousel" style={{margin: '10px'}}>
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>              
                   </div>        
