@@ -1,10 +1,10 @@
 body {
   background-color: #f9f9f9;
-  font-family: 'Poppin', sans-serif;
+  font-family: "Poppin", sans-serif;
 }
-.service-banner{
+.service-banner {
   margin-top: 110px;
-  background: url('../Assets/service_banner.webp') no-repeat center center;
+  background: url("../Assets/service_banner.webp") no-repeat center center;
   background-size: cover;
   color: white;
   padding: 180px 15px;
@@ -12,19 +12,18 @@ body {
   height: 60vh;
 }
 
-#search-input{
+#search-input {
   width: 100%;
 
   background-color: transparent;
   color: #fff;
-  font-family: 'Poppin', sans-serif;
+  font-family: "Poppin", sans-serif;
   border: none;
-  
+
   outline: none;
-  
 }
-.search-service{
-  background-color:transparent;
+.search-service {
+  background-color: transparent;
   color: white;
   width: 30%;
   height: 80px;
@@ -35,72 +34,58 @@ body {
   gap: 10px;
   padding: 20px;
   border: 1px solid rgb(119, 119, 119);
- 
 }
 /* .line{
   width: 20px;
   height: 2px;
   background-color: gray;
 } */
-.main-line{
+.main-line {
   height: 4px;
   background-color: #37517e;
   width: 150px;
 }
-.letter{
-color: #747070;
-font-weight: 300;
-}
-.icon-service{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-#data-recovery{
-
-width: 100px;
-height: auto;
-
-}
-.service-text{
+.letter {
   color: #747070;
-font-weight: 300;
-font-size: 16px;
+  font-weight: 300;
 }
-#computer-repair{
-width: 100px;
+.icon-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#cleaning-service{
-width: 100px;
+#data-recovery {
+  width: 100px;
+  height: auto;
 }
-#network-solution{
-width: 100px;
+.service-text {
+  color: #747070;
+  font-weight: 300;
+  font-size: 16px;
+}
+#computer-repair {
+  width: 100px;
+}
+#cleaning-service {
+  width: 100px;
+}
+#network-solution {
+  width: 100px;
 }
 
-.all-icon-service-process{
+.all-icon-service-process {
   display: flex;
   justify-content: space-between;
   width: 50%;
-  
-  
 }
-.icon-fast-service{
-  width: 100px;
-  height: 100px;
-}
-.icon-secure-payment{
-  width: 100px;
-  height: 100px;
-}
-.icon-expert-team{
+.icon-service-process {
   width: 100px;
   height: 100px;
 }
 
-.service-process-text{
+.service-process-text {
   color: #747070;
   font-weight: 300;
   font-size: 15px;
   width: 120%;
-  
 }

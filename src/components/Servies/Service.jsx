@@ -9,11 +9,13 @@ import Footer from "../Footer/Footer";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { RiTeamLine } from "react-icons/ri";
 import { TbClockUp } from "react-icons/tb";
-
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { MdSignalWifiStatusbarConnectedNoInternet3 } from "react-icons/md";
+import { IoMdPricetags } from "react-icons/io";
 const Service = () => {
   return (
     <div
-      className="servies"
+      className="servies "
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
     >
@@ -76,7 +78,7 @@ const Service = () => {
           </div>
         </div>
       </section>
-
+      {/* Why Choose Us */}
       <div className="container" id="why-choose-us">
         <h2 className="text-center mt-5">Why Choose Us</h2>
         <h5 className="text-center mt-3 letter">
@@ -164,107 +166,79 @@ const Service = () => {
               <div className="full">
                 <div className=" text-md-start">
                   <h2>Service process</h2>
-                  <h5 className="letter">
+                  <h5 className="letter mt-3">
                     Easy and effective way to get your device repaired.
                   </h5>
                 </div>
                 <div className="d-flex justify-content-start align-items-start">
                   <div className="main-line"></div>
                 </div>
-                <div className="all-icon-service-process col-md-8"> 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                      <TbClockUp className="icon-fast-service mt-3"/>
+
+                <div class="container mt-5 ">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class="icon-service-process mt-3">
+                          <TbClockUp className="icon-service-process" />
+                        </div>
+                        <h5 class="mt-3">Fast Service</h5>
+                        <p>Quick and reliable service.</p>
                       </div>
-                      <h5 className="text-md-start mt-4">Fast Service</h5>
-                      <p className="text-md-start service-process-text mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class=" mt-3">
+                          <RiSecurePaymentLine className="icon-service-process" />
+                        </div>
+                        <h5 class="mt-3">Secure Payment</h5>
+                        <p>Safe transactions with encryption.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class=" mt-3">
+                          <RiTeamLine className="icon-service-process" />
+                        </div>
+                        <h5 class="mt-3">Expert Team</h5>
+                        <p>Experienced professionals at your service.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class=" mt-3">
+                          <MdSignalWifiStatusbarConnectedNoInternet3 className="icon-service-process" />
+                        </div>
+                        <h5 class="mt-3">Network Solutions</h5>
+                        <p>Robust network support for businesses.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class=" mt-3">
+                          <MdOutlineSupportAgent className="icon-service-process" />
+                        </div>
+                        <h5 class="mt-3">24/7 Support</h5>
+                        <p>Always available for your needs.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="service-box">
+                        <div class="mt-3">
+                          <IoMdPricetags className="icon-service-process " />
+                        </div>
+                        <h5 class="mt-3">Affordable Pricing</h5>
+                        <p>Quality service at the best price.</p>
+                      </div>
                     </div>
                   </div>
-
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5 ">
-                      < RiSecurePaymentLine className="icon-secure-payment mt-3" />
-                      </div>
-                      <h5 className="text-md-start mt-4">Secure Payment</h5>
-                      <p className="text-md-start service-process-text mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                      <RiTeamLine  className="icon-expert-team mt-3"/>
-                      </div>
-                      <h5 className="text-md-start mt-4">Expert Team</h5>
-                      <p className="text-md-start service-process-text mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div>
-{/* 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                        <img
-                          id="network-solution"
-                          className="mt-5"
-                          src={service4}
-                          alt="network-solution"
-                        />
-                      </div>
-                      <h5 className="text-md-start mt-4">Fast Service</h5>
-                      <p className="text-md-start service-process-text-h4 mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div> */}
-
-                  {/* <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                        <img
-                          id="network-solution"
-                          className="mt-5"
-                          src={service4}
-                          alt="network-solution"
-                        />
-                      </div>
-                      <h5 className="text-md-start mt-4">Fast Service</h5>
-                      <p className="text-md-start service-process-text-h4 mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div> */}
-
-                  {/* <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                        <img
-                          id="network-solution"
-                          className="mt-5"
-                          src={service4}
-                          alt="network-solution"
-                        />
-                      </div>
-                      <h5 className="text-md-start mt-4">Fast Service</h5>
-                      <p className="text-md-start service-process-text-h4 mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div> */}
                 </div>
+
+                
               </div>
             </div>
           </div>
@@ -272,9 +246,7 @@ const Service = () => {
       </div>
       <Footer />
     </div>
-    
   );
-
 };
 
 export default Service;
