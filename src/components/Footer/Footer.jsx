@@ -8,7 +8,7 @@ import { LiaTelegram } from "react-icons/lia";
 const Footer = () => {
   return (
     <div>
-       <footer class="bg-dark text-white py-5 mt-5 ">
+       <footer class="bg-dark text-white py-5 mt-5">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-3">
@@ -21,8 +21,8 @@ const Footer = () => {
                         <li><a href="/" class="text-white  smooth-scroll nav-link">Home</a></li>
                         <li><a href="/about" class="text-white  smooth-scroll nav-link">About</a></li>
                         <li><a href="/contact" class="text-white  smooth-scroll nav-link">Contact</a></li>
-                        <li><a href="#technology" class="text-white  smooth-scroll nav-link">Laptop</a></li>
-                        <li><a href="#product" class="text-white  smooth-scroll nav-link">Accessories</a></li>
+                        <li><a href="/laptop" class="text-white  smooth-scroll nav-link">Laptop</a></li>
+                        <li><a href="/asseserise" class="text-white  smooth-scroll nav-link">Accessories</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

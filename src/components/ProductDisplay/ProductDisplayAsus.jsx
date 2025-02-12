@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import asus_product from '../Assets/asus_product'
 import { ShopContext } from '../Context/ShopContext'
 import { useParams } from 'react-router-dom'
@@ -9,9 +9,9 @@ import HotProduct from '../HotProduct/HotProduct'
 import { useState } from 'react'
 const ProductDisplayAsus = () => {
   const { addToCard } = useContext(ShopContext);  // Destructure addToCard from ShopContext
-  const { asusID } = useParams();  // Get asusID from URL
+  const { asusID } = useParams();
   const asusProduct = asus_product.find((e) => e.asus_id === Number(asusID)); 
-  const [mainImage , setMainImage] = useState(asusProduct.asus_image);
+  const [mainImage , setMainImage] = useState([asusProduct.asus_image]);
   const images = [
             asusProduct.asus_image,
             asusProduct.asus_detail_2,
@@ -21,9 +21,9 @@ const ProductDisplayAsus = () => {
           const changeImage = (src) => {
             if (src) setMainImage(src);
           };
-    if(!asusProduct){
-        return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>   
-    }
+          if(!asusProduct){
+            return <h1 className="text-center fw-bold f3">Product Not Found :( <Link to = '/'>Back Home</Link></h1>   
+        }
   return (
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" style={{margin: '110px'}}>
     <div className='product-display-asus' >
@@ -33,6 +33,7 @@ const ProductDisplayAsus = () => {
         <img id="mainImage" onClick={window.scrollTo(0,0)} src= {mainImage} alt="Main Display" className="img-fluid rounded" />
       </div>
       <div className="thumbnail-container d-flex gap-4 mt-5">
+        
       {images.map((image, i) => (
                 <img
                   key={i}

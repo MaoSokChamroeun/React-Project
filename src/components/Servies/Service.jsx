@@ -158,21 +158,22 @@ const Service = () => {
 
       {/* Service Process */}
       <div className="service-process mt-5">
-        <div className="container">
+        <div className="all-icon-service">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-12">
               <div className="full">
-                <div className=" text-md-start">
+                <div className="text-service-process">
                   <h2>Service process</h2>
                   <h5 className="letter">
                     Easy and effective way to get your device repaired.
                   </h5>
-                </div>
-                <div className="d-flex justify-content-start align-items-start">
+                  <div className="d-flex justify-content-start align-items-start">
                   <div className="main-line"></div>
                 </div>
-                <div className="all-icon-service-process col-md-8"> 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                </div>
+                
+                <div className="all-icon-service-process row  "> 
+                  <div className="col-4">
                     <div className="">
                       <div className="icon-service-process mt-5">
                       <TbClockUp className="icon-fast-service mt-3"/>
@@ -184,8 +185,8 @@ const Service = () => {
                       </p>
                     </div>
                   </div>
-
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                 
+                  <div className="col-4">
                     <div className="">
                       <div className="icon-service-process mt-5 ">
                       < RiSecurePaymentLine className="icon-secure-payment mt-3" />
@@ -195,10 +196,10 @@ const Service = () => {
                         Exerci tation ullamcorper suscipit lobortis nisl ut
                         aliquip ex ea commodo.
                       </p>
-                    </div>
+                    </div>  
                   </div>
 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                  <div className="col-4">
                     <div className="">
                       <div className="icon-service-process mt-5">
                       <RiTeamLine  className="icon-expert-team mt-3"/>
@@ -210,26 +211,8 @@ const Service = () => {
                       </p>
                     </div>
                   </div>
-{/* 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div className="">
-                      <div className="icon-service-process mt-5">
-                        <img
-                          id="network-solution"
-                          className="mt-5"
-                          src={service4}
-                          alt="network-solution"
-                        />
-                      </div>
-                      <h5 className="text-md-start mt-4">Fast Service</h5>
-                      <p className="text-md-start service-process-text-h4 mt-3">
-                        Exerci tation ullamcorper suscipit lobortis nisl ut
-                        aliquip ex ea commodo.
-                      </p>
-                    </div>
-                  </div> */}
 
-                  {/* <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                  <div className="col-4">
                     <div className="">
                       <div className="icon-service-process mt-5">
                         <img
@@ -245,9 +228,9 @@ const Service = () => {
                         aliquip ex ea commodo.
                       </p>
                     </div>
-                  </div> */}
+                  </div> 
 
-                  {/* <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                   <div className="col-4">
                     <div className="">
                       <div className="icon-service-process mt-5">
                         <img
@@ -263,8 +246,27 @@ const Service = () => {
                         aliquip ex ea commodo.
                       </p>
                     </div>
-                  </div> */}
-                </div>
+                  </div> 
+
+                  <div className="col-4">
+                    <div className="">
+                      <div className="icon-service-process mt-5">
+                        <img
+                          id="network-solution"
+                          className="mt-5"
+                          src={service4}
+                          alt="network-solution"
+                        />
+                      </div>
+                      <h5 className="text-md-start mt-4">Fast Service</h5>
+                      <p className="text-md-start service-process-text-h4 mt-3">
+                        Exerci tation ullamcorper suscipit lobortis nisl ut
+                        aliquip ex ea commodo.
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+               
               </div>
             </div>
           </div>

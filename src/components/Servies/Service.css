@@ -77,12 +77,23 @@ width: 100px;
 width: 100px;
 }
 
-.all-icon-service-process{
+/* .all-icon-service-process{
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  background-color: rgb(26, 248, 19);
+  margin: auto;
+  width: 90%;
   
   
+} */
+
+.all-icon-service{
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 20px;
+  width: 90%;
 }
 .icon-fast-service{
   width: 100px;
@@ -103,4 +114,10 @@ width: 100px;
   font-size: 15px;
   width: 120%;
   
+}
+.text-service-process{
+  width: 400px;
+  margin-left: 100px;
+  height: 90px;
+ 
 }

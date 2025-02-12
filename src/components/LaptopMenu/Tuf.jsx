@@ -8,11 +8,16 @@ import tuf_product from '../Assets/tuf_product'
 import TufItems from '../Item/TufItems'
 import DetailLogo from '../DetialLogo/DetailLogo'
 import './Css/Tuf.css'
+import Breadcrump from '../Breadcrump/Breadcrump'
 const Tuf = () => {
   return (
     <div className='container=fluid' data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+       <div className='breadcrump'>
+         <Breadcrump />
+       </div>
         <section className="container-fluid  ">
-          <div className="banner d-flex justify-content-center" style={{margin: '110px'}}>
+          <div className="banner d-flex justify-content-center" style={{margin: '10px'}}>
+          
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
