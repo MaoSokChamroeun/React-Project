@@ -1,21 +1,23 @@
 import React from 'react'
 import breadcrupm_arrow from '../Assets/breadcrum_arrow.png'
+import './Breadcrump.css'
+import { NavLink } from 'react-router-dom'
 const Breadcrump = () => {
   return (
-    <div className='breadcrupm ms-1 my-2' >
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/'>Home</a>
+    <div className='breadcrupm-main ms-1 my-2 ' >
+        <NavLink to='/' className='text-dark ms-2 fs-6 fw-medium' >Home</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/asus'>ASUS</a>
+        <NavLink to='/asus' className='text-dark ms-2 fs-6 fw-medium' >ASUS</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/msi'>MSI</a>
+        <NavLink to='/msi' className='text-dark ms-2 fs-6 fw-medium'>MSI</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/tuf'>TUF</a>
+        <NavLink to='/tuf' className='text-dark ms-2 fs-6 fw-medium' >TUF</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/monitorproduct'>MONITOR</a>
+        <NavLink to='/monitorproduct' className='text-dark ms-2 fs-6 fw-medium'>MONITOR</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/keyboard'>KEYBOARD</a>
+        <NavLink to='/keyboard' className='text-dark ms-2 fs-6 fw-medium' >KEYBOARD</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
-        <a className='text-dark ms-2 fs-6 fw-medium' href='/headphone'>HEADPHONE</a>
+        <NavLink to='/headphone' className='text-dark ms-2 fs-6 fw-medium'>HEADPHONE</NavLink>
         <img className='ms-2' src={breadcrupm_arrow} alt='' />
 
     </div>

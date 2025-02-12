@@ -18,10 +18,9 @@ hr{
  }
 .navbar-container{
     position: fixed;
-    
     overflow: hidden;
     display: block;
-    z-index: 999;
+    z-index: 99;
     height: 100px;
     top: 0;
     background-color: white;
