@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import monitor_product from '../Assets/monitor_product'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -12,7 +12,21 @@ const ProductDisplayMonitor = () => {
   const { addToCard } = useContext(ShopContext);  // Destructure addToCard from ShopContext
     const { monitorID} = useParams();
     const monitorProduct = monitor_product.find((e) => e.monitor_id === Number(monitorID));
-      const [mainImage , setMainImage] = useState(monitorProduct.monitor_image);
+      const [mainImage , setMainImage] = useState(null);
+      useEffect(() =>{
+        if(monitorProduct){
+          setMainImage(monitorProduct.monitor_image);
+        }
+      },[monitorProduct])
+
+        if (!monitorProduct) {
+          return (
+            <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
+              <h2>Product Not Found :(</h2>
+              <Link to="/">Go Back to Home</Link>
+            </div>
+          );
+        }
       const imagesMonitor = [
                 monitorProduct.monitor_image,
                 monitorProduct.monitor_detail_2,

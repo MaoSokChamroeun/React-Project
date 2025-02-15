@@ -31,12 +31,13 @@ const Service = () => {
                 id="search-input"
               />
 
-              <IoSearchOutline style={{ fontSize: "2.3rem" }} />
+              <IoSearchOutline style={{ fontSize: "2.3rem" }} /> 
+              
             </div>
           </div>
         </div>
       </section>
-      <section>
+      <section >
         <div className="container">
           <div className="row g-4 mt-2">
             <div className="col-lg-4 col-md-6">
@@ -220,6 +221,7 @@ const Service = () => {
                       <div class="service-box">
                         <div class=" mt-3">
                           <MdOutlineSupportAgent className="icon-service-process" />
+                         
                         </div>
                         <h5 class="mt-3">24/7 Support</h5>
                         <p>Always available for your needs.</p>

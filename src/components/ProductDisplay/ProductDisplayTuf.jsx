@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import tuf_product from '../Assets/tuf_product'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -10,7 +10,20 @@ const ProductDisplayTuf = () => {
   const {addToCard} = useContext(ShopContext)
   const {tufID} = useParams();
   const tufProduct = tuf_product.find((e) => e.tuf_id === Number(tufID));
-    const [tufMain , setTufMain] = useState(tufProduct.tuf_image);
+    const [tufMain , setTufMain] = useState(null);
+    useEffect(() =>{
+      if(tufProduct){
+        setTufMain(tufProduct.tuf_image);
+      }
+    },[tufProduct])
+    if(!tufProduct){
+          return (
+                  <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
+                    <h2>Product Not Found :(</h2>
+                    <Link to="/">Go Back to Home</Link>
+                  </div>
+                );
+    }
      const tufImages = [
       tufProduct.tuf_image,
       tufProduct.tuf_detail_2,

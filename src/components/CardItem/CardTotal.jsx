@@ -5,9 +5,7 @@ import './CardTotal.css'
 import remove_icon from '../Assets/cart_cross_icon.png'
 import Footer from '../Footer/Footer';
 const CardTotal = () => {
- 
   const { cardItems, all_product, removeFromCard, getTotalCardAmount} = useContext(ShopContext);
-  
   return (
     <div className="card-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className="card-item-format-main">
@@ -25,7 +23,6 @@ const CardTotal = () => {
           return (
             <div key={product.id}>
               <div className="card-item-formate card-item-format-main">
-           
                 <img src ={product.image} alt={product.name} className="card-icon-product-icon" />
                 <p>{product.name}</p>
                 <p>${product.new_price}</p>

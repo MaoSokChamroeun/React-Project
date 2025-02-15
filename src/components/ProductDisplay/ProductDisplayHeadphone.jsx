@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import headphone_product from '../Assets/headphone_product'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -10,7 +10,20 @@ const ProductDisplayHeadphone = () => {
   const { addToCard} = useContext(ShopContext)
     const {headphoneID} = useParams();
     const headphoneProduct = headphone_product.find((e) => e.headphone_id === Number(headphoneID));
-     const [mainImage , setMainImage] = useState(headphoneProduct.headphone_image);
+     const [mainImage , setMainImage] = useState(null);
+     useEffect(() =>{
+      if(headphoneProduct){
+        setMainImage(headphoneProduct.headphone_image);
+      }
+     },[headphoneProduct])
+       if (!headphoneProduct) {
+         return (
+           <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
+             <h2>Product Not Found :(</h2>
+             <Link to="/">Go Back to Home</Link>
+           </div>
+         );
+       }
       const images = [
                 headphoneProduct.headphone_image,
                 headphoneProduct.headphone_image,

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ShopContext } from "../Context/ShopContext";
 import { Link } from "react-router-dom";
@@ -9,7 +9,22 @@ const ProductDisplayMsi = () => {
     const {msiID} = useParams()
     const { addToCard} = useContext(ShopContext)
     const msiProduct = msi_product.find((e) => e.msi_id === Number(msiID));
-    const [msiMain , setMsiMain] = useState(msiProduct.msi_image);
+    const [msiMain , setMsiMain] = useState(null);
+    useEffect(() =>{
+      if(msiProduct){
+        setMsiMain(msiProduct.msi_image);
+      }
+    },[msiProduct])
+    if(!msiProduct){
+        
+          return (
+            <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
+              <h2>Product Not Found :(</h2>
+              <Link to="/">Go Back to Home</Link>
+            </div>
+          );
+        
+    }
     const msiImages = [
     msiProduct.msi_image,
     msiProduct.msi_detail_2,

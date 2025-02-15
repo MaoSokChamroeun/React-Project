@@ -27,7 +27,7 @@ const Keyboard = () => {
                   </div>        
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={banner_keyboard_1} alt="" className="d-block w-100" />
+                    <img src={banner_keyboard_4} alt="" className="d-block w-100" />
                   </div>
                   <div className="carousel-item">
                     <img src={banner_keyboard_2} alt="" className="d-block w-100" />
@@ -36,7 +36,7 @@ const Keyboard = () => {
                     <img src={banner_keyboard_3} alt="" className="d-block w-100" />
                   </div>
                   <div className="carousel-item">
-                    <img src={banner_keyboard_4} alt="" className="d-block w-100" />
+                    <img src={banner_keyboard_1} alt="" className="d-block w-100" />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">

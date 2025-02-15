@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import keyboard_product from '../Assets/keyboard_product'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -11,7 +11,22 @@ const ProductDisplayKeyboard = () => {
   const { addToCard} = useContext(ShopContext);
     const { keyboardID}  = useParams();
     const keyboardProduct = keyboard_product.find((e) => e.keyboard_id === Number(keyboardID));
-      const [mainImage , setMainImage] = useState(keyboardProduct.keyboard_front_image);
+      const [mainImage , setMainImage] = useState(null);
+      useEffect(() =>{
+        if(keyboardProduct){
+          setMainImage(keyboardProduct.keyboard_front_image);
+        }
+      },[keyboardProduct])
+      if(!keyboardProduct){
+         
+            return (
+              <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
+                <h2>Product Not Found :(</h2>
+                <Link to="/">Go Back to Home</Link>
+              </div>
+            );
+          
+      }
       const images = [
                 keyboardProduct.keyboard_front_image,
                 keyboardProduct.keyboard_detail_2,

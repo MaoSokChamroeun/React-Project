@@ -31,7 +31,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import ErrorBoundary from './components/ErrorBoundary/ErrorBounddary';
 function App() {
   useEffect(() => {
     AOS.init({ duration: 900 });
@@ -39,12 +39,11 @@ function App() {
   }, []);
   window.history.scrollRestoration = "manual";
   return (
-
     <div className="App">
+    <ErrorBoundary>
     <ShopContextProvider>
      <BrowserRouter >
      <Navigation />
-
       <Routes>
         <Route path='/' element = {<Shop />}/>
         <Route path='/about' element = {<About />}/>
@@ -58,16 +57,12 @@ function App() {
         <Route path='/service' element = {<Service />} />
         <Route path='/cardtotal' element = {<CardTotal />} />
         <Route path='/asus' element = {<Asus />}/>
-       
         <Route path='/msi' element = {<Mis />}/>
-
         <Route path='/tuf' element = {<Tuf />} />
         <Route path='/monitorproduct' element= {<MonitorProduct />} />
         <Route path='/keyboard' element= {<Keyboard />} />
         <Route path='/headphone' element= {<HeadPhone />} />
         <Route path='/product' element = {<Product />} />
-
-
         <Route path='/productdisplayasus' element= {<ProductDisplayAsus />} >
             <Route path=':asusID' element = {<ProductDisplayAsus />} />
         </Route>
@@ -89,6 +84,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       </ShopContextProvider>
+      </ErrorBoundary>
     </div>
   );
 }

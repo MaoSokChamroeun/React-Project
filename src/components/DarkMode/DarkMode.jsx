@@ -4,7 +4,6 @@ import { Sun, Moon } from 'lucide-react';
 import './DarkMode.css'
 const DarkMode = () => {
     const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'active');
-
     useEffect(() => {
       if (darkMode) {
         document.body.classList.add('dark-mode');
@@ -13,9 +12,7 @@ const DarkMode = () => {
       }
       localStorage.setItem('darkMode', darkMode ? 'active' : 'inactive');
     }, [darkMode]);
-  
     const toggleTheme = () => setDarkMode(!darkMode);
-  
     return (
       <div className="d-flex justify-content-end">
         <button
