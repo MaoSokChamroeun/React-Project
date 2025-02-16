@@ -7,6 +7,8 @@ import { ShopContext } from '../Context/ShopContext'
 
 import Footer from '../Footer/Footer'
 import HotProduct from '../HotProduct/HotProduct'
+import error_image from '../Assets/404-error.png'
+import ErrorBounddary from '../ErrorBoundary/ErrorBounddary'
 const ProductDisplayKeyboard = () => {
   const { addToCard} = useContext(ShopContext);
     const { keyboardID}  = useParams();
@@ -15,14 +17,14 @@ const ProductDisplayKeyboard = () => {
       useEffect(() =>{
         if(keyboardProduct){
           setMainImage(keyboardProduct.keyboard_front_image);
+          window.scrollTo(0,0);
         }
       },[keyboardProduct])
       if(!keyboardProduct){
          
             return (
               <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-                <h2>Product Not Found :(</h2>
-                <Link to="/">Go Back to Home</Link>
+              <ErrorBounddary />
               </div>
             );
           

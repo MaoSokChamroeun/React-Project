@@ -8,6 +8,7 @@ import './ProductDisplayCss/ProductDisplay.css';
 import Footer from '../Footer/Footer';
 import HotProduct from '../HotProduct/HotProduct';
 
+import ErrorBounddary from '../ErrorBoundary/ErrorBounddary';
 const ProductDisplayAsus = () => {
   const { addToCard } = useContext(ShopContext);
   const { asusID } = useParams();
@@ -17,14 +18,14 @@ const ProductDisplayAsus = () => {
   useEffect(() => {
     if (asusProduct) {
       setMainImage(asusProduct.asus_image);
+      window.scrollTo(0,0);
     }
   }, [asusProduct]);
   // Handle case where product is not found
   if (!asusProduct) {
     return (
       <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-        <h2>Product Not Found :(</h2>
-        <Link to="/">Go Back to Home</Link>
+        <ErrorBounddary />
       </div>
     );
   }

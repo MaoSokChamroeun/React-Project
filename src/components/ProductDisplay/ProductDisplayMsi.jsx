@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import msi_product from "../Assets/msi_product";
 import Footer from "../Footer/Footer";
 import HotProduct from "../HotProduct/HotProduct";
+import ErrorBounddary from "../ErrorBoundary/ErrorBounddary";
+
 const ProductDisplayMsi = () => {
     const {msiID} = useParams()
     const { addToCard} = useContext(ShopContext)
@@ -13,14 +15,13 @@ const ProductDisplayMsi = () => {
     useEffect(() =>{
       if(msiProduct){
         setMsiMain(msiProduct.msi_image);
+        window.scrollTo(0,0);
       }
     },[msiProduct])
     if(!msiProduct){
-        
           return (
             <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-              <h2>Product Not Found :(</h2>
-              <Link to="/">Go Back to Home</Link>
+             <ErrorBounddary />
             </div>
           );
         

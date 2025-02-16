@@ -1,29 +1,14 @@
-import React,{Component} from "react";
-class ErrorBoundary extends Component{
-  constructor(props){
-    super(props);
-    this.state = { 
-      hasError: false,
-      error: null,
-      errorInfo: null 
-    };
-  }
-  static  getDerivedStateFormError(erorr){
-    return {
-      hasError : true,
-    }
-  }
-
-  render(){
-    if(this.state.hasError){
-      return <h1>404 Not Found :(</h1>
-    }
-    return this.props.children;
-  }
-
- 
-
-
+import React from 'react'
+import error_image from '../Assets/404-error.png'
+import { Link } from 'react-router-dom'
+const ErrorBounddary = () => {
+  return (
+    <div className='error'>
+        <img src={error_image} alt='' />
+        <h2>Product Not Found :(</h2>
+        <Link to="/">Go Back to Home</Link>
+    </div>
+  )
 }
 
-export default ErrorBoundary;
+export default ErrorBounddary

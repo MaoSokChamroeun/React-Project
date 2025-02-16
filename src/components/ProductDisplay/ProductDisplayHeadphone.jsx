@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { ShopContext } from '../Context/ShopContext'
 import Footer from '../Footer/Footer'
 import HotProduct from '../HotProduct/HotProduct'
+
+import ErrorBounddary from '../ErrorBoundary/ErrorBounddary'
 const ProductDisplayHeadphone = () => {
   const { addToCard} = useContext(ShopContext)
     const {headphoneID} = useParams();
@@ -14,13 +16,13 @@ const ProductDisplayHeadphone = () => {
      useEffect(() =>{
       if(headphoneProduct){
         setMainImage(headphoneProduct.headphone_image);
+        window.scrollTo(0,0);
       }
      },[headphoneProduct])
        if (!headphoneProduct) {
          return (
            <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-             <h2>Product Not Found :(</h2>
-             <Link to="/">Go Back to Home</Link>
+             <ErrorBounddary />
            </div>
          );
        }

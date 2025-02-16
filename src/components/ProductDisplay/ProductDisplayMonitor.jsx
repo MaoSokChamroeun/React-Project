@@ -6,8 +6,9 @@ import { useState } from 'react'
 import HotProduct from '../HotProduct/HotProduct'
 import Footer from '../Footer/Footer'
 import { useContext } from 'react'
-
+import error_image from '../Assets/404-error.png'
 import { ShopContext } from '../Context/ShopContext'
+import ErrorBounddary from '../ErrorBoundary/ErrorBounddary'
 const ProductDisplayMonitor = () => {
   const { addToCard } = useContext(ShopContext);  // Destructure addToCard from ShopContext
     const { monitorID} = useParams();
@@ -16,14 +17,14 @@ const ProductDisplayMonitor = () => {
       useEffect(() =>{
         if(monitorProduct){
           setMainImage(monitorProduct.monitor_image);
+          window.scrollTo(0,0);
         }
       },[monitorProduct])
 
         if (!monitorProduct) {
           return (
             <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-              <h2>Product Not Found :(</h2>
-              <Link to="/">Go Back to Home</Link>
+            <ErrorBounddary />
             </div>
           );
         }

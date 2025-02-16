@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Footer from '../Footer/Footer'
 import HotProduct from '../HotProduct/HotProduct'
 import { ShopContext } from '../Context/ShopContext'
+import ErrorBounddary from '../ErrorBoundary/ErrorBounddary'
 const ProductDisplayTuf = () => {
   const {addToCard} = useContext(ShopContext)
   const {tufID} = useParams();
@@ -14,13 +15,13 @@ const ProductDisplayTuf = () => {
     useEffect(() =>{
       if(tufProduct){
         setTufMain(tufProduct.tuf_image);
+        window.scrollTo(0,0);
       }
     },[tufProduct])
     if(!tufProduct){
           return (
                   <div className="not-found-container" style={{ textAlign: 'center', margin: '100px' }}>
-                    <h2>Product Not Found :(</h2>
-                    <Link to="/">Go Back to Home</Link>
+                     <ErrorBounddary />
                   </div>
                 );
     }

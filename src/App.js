@@ -40,7 +40,7 @@ function App() {
   window.history.scrollRestoration = "manual";
   return (
     <div className="App">
-    <ErrorBoundary>
+   
     <ShopContextProvider>
      <BrowserRouter >
      <Navigation />
@@ -84,7 +84,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       </ShopContextProvider>
-      </ErrorBoundary>
+    
     </div>
   );
 }
